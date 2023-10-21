@@ -2,44 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>马花花</title>
-    <link>https://walkssi.com/</link>
+    <link>https://Tryanel.github.io/</link>
     <description>Recent content on 马花花</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://walkssi.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于</title>
-      <link>https://walkssi.com/about/</link>
+      <link>https://Tryanel.github.io/about/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0800</pubDate>
       
-      <guid>https://walkssi.com/about/</guid>
+      <guid>https://Tryanel.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>好玩的</title>
+      <link>https://Tryanel.github.io/ship/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://Tryanel.github.io/ship/</guid>
       <description></description>
     </item>
     
     <item>
       <title>百科</title>
-      <link>https://walkssi.com/wiki/</link>
+      <link>https://Tryanel.github.io/wiki/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0800</pubDate>
       
-      <guid>https://walkssi.com/wiki/</guid>
+      <guid>https://Tryanel.github.io/wiki/</guid>
       <description></description>
     </item>
     
     <item>
       <title>语言元素</title>
-      <link>https://walkssi.com/%E8%AF%AD%E8%A8%80%E5%85%83%E7%B4%A0/</link>
+      <link>https://Tryanel.github.io/%E8%AF%AD%E8%A8%80%E5%85%83%E7%B4%A0/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0800</pubDate>
       
-      <guid>https://walkssi.com/%E8%AF%AD%E8%A8%80%E5%85%83%E7%B4%A0/</guid>
+      <guid>https://Tryanel.github.io/%E8%AF%AD%E8%A8%80%E5%85%83%E7%B4%A0/</guid>
       <description>语言元素 指令和程序 计算机的硬件系统通常由五大部件构成，包括：运算器、控制器、存储器、输入设备和输出设备。其中，运算器和控制器放在一起就是我们通常所说的中央处理器</description>
     </item>
     
     <item>
       <title>🌞 导航</title>
-      <link>https://walkssi.com/nav/</link>
+      <link>https://Tryanel.github.io/nav/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://walkssi.com/nav/</guid>
+      <guid>https://Tryanel.github.io/nav/</guid>
       <description>🌞 分类 ONE mineitem one mineitem two mineitem three Gitee Github 🔨 分类 TWO toolitem three 图压缩 调色板 Pixabay Spring Initializr Shields JSDelivr BootNav 字体之家 🍺 分类 THREE 当然我在扯淡 阮一峰 李杀网 酷壳 廖雪峰 🔖 标签 BOOKMARKs 天行健，君子以自强不息 比赛直播-欧洲杯直播</description>
     </item>
     
