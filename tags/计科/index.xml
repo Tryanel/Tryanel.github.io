@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>计科 on Cat</title>
+    <link>https://Tryanel.github.io/tags/%E8%AE%A1%E7%A7%91/</link>
+    <description>Recent content in 计科 on Cat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 09 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/%E8%AE%A1%E7%A7%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>操作系统</title>
+      <link>https://Tryanel.github.io/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
+      <description>第一章 操作系统引论 1.1 操作系统概念 计算机系统是有硬件和软件组成的 硬件是指计算机物理装置本身。是软件建立与活动的基础； 软件是计算机执行的程序。是对硬件进行管理和功能</description>
+    </item>
+    
+  </channel>
+</rss>

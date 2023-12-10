@@ -6,7 +6,16 @@
     <description>Recent content on Cat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>操作系统</title>
+      <link>https://Tryanel.github.io/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
+      <description>第一章 操作系统引论 1.1 操作系统概念 计算机系统是有硬件和软件组成的 硬件是指计算机物理装置本身。是软件建立与活动的基础； 软件是计算机执行的程序。是对硬件进行管理和功能</description>
+    </item>
+    
     <item>
       <title>CET4_Grammer</title>
       <link>https://Tryanel.github.io/cet4_grammer/</link>
@@ -67,7 +76,7 @@
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/about/</guid>
-      <description>:: 🎇 对自己说的话：铭记 😊 约会禁止做的事 1、禁止点外卖（奶茶可以，必须去饭店吃） 2、马花花禁止生气 3、倪桃桃禁止冷战 4、必须提前做好攻略 2023年暑假龚滩之行</description>
+      <description>:: 🎇 对自己说的话：铭记 😊 约会禁止做的事 1、禁止点外卖（奶茶可以，必须去饭店吃） 2、马花花禁止生气 3、倪桃桃禁止冷战 4、必须提前做好攻略 2023年寒假龚滩之行</description>
     </item>
     
     <item>
@@ -85,7 +94,7 @@
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/wiki/</guid>
-      <description></description>
+      <description>文件夹变成exe怎么办？ 首先到出问题的文件目录下创建一个.reg文件和.bat文件， .reg文件输入以下内容 1 2 3 4 Windows Registry Editor Version 5.00 [HKEY_LOCAL_ MACHINE \SOFTWARE\Microsoft\Windows\CurrentVersion \Explorer\Advanced\Folder\Hidden \SHOWALL] &amp;#34;CheckedValue&amp;#34;=dword:00000001 这个文件用于控制文件和</description>
     </item>
     
     <item>
