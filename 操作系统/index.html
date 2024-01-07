@@ -57,11 +57,11 @@
         <span>
             
             <svg t="1656737548689" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="33866" width="12" height="12"><path d="M832.038608 64.662657H192.030028C121.255125 64.662657 63.940169 121.98845 63.940169 192.694717v446.793671C63.940169 710.205493 121.255125 767.643272 192.030028 767.643272h133.353183a63.940169 63.940169 0 0 1 55.219742 31.576328l76.099638 129.83828c12.358154 21.093031 33.790754 31.626903 55.216129 31.626903s42.832688-10.544709 55.198067-31.619678l76.222461-129.870792a63.940169 63.940169 0 0 1 55.212517-31.551041h133.54103c70.576219 0 127.732228-57.289669 127.732227-127.800865V192.391272C959.825022 121.85479 902.643727 64.662657 832.038608 64.662657zM895.884854 639.842407A63.85347 63.85347 0 0 1 832.092795 703.703103h-133.54103a127.753903 127.753903 0 0 0-110.349172 63.09847l-76.222461 129.856342a0.274545 0.274545 0 0 1 0-0.050574h-0.032512s-0.021675 0.061411-0.032512 0.061412l-76.1466-129.85273A127.804477 127.804477 0 0 0 325.383211 703.703103H192.030028A64.207489 64.207489 0 0 1 127.880338 639.488388V192.694717A64.102729 64.102729 0 0 1 192.030028 128.602826h640.00858A63.799284 63.799284 0 0 1 895.884854 192.391272v447.451135z" fill="#adb5bd" p-id="33867"></path><path d="M608.154093 288.092004A31.970084 31.970084 0 0 0 576.184009 320.062089v160.078006l-134.650049-179.278119A31.970084 31.970084 0 0 0 384.002258 320.062089v255.760676a31.970084 31.970084 0 0 0 63.940169 0v-159.958796l134.650048 179.274507a31.970084 31.970084 0 0 0 57.531703-19.200113V320.062089a31.970084 31.970084 0 0 0-31.970085-31.970085z" fill="#adb5bd" p-id="33868"></path></svg>
-            7665 字</span>&nbsp;
+            10868 字</span>&nbsp;
         <span>
             
             <svg t="1656737462334" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32892" width="12" height="12"><path d="M512 74.666667C270.933333 74.666667 74.666667 270.933333 74.666667 512S270.933333 949.333333 512 949.333333 949.333333 753.066667 949.333333 512 753.066667 74.666667 512 74.666667z m0 810.666666c-204.8 0-373.333333-168.533333-373.333333-373.333333S307.2 138.666667 512 138.666667 885.333333 307.2 885.333333 512 716.8 885.333333 512 885.333333z" p-id="32893" fill="#adb5bd"></path><path d="M695.466667 567.466667l-151.466667-70.4V277.333333c0-17.066667-14.933333-32-32-32s-32 14.933333-32 32v238.933334c0 12.8 6.4 23.466667 19.2 29.866666l170.666667 81.066667c4.266667 2.133333 8.533333 2.133333 12.8 2.133333 12.8 0 23.466667-6.4 29.866666-19.2 6.4-14.933333 0-34.133333-17.066666-42.666666z" p-id="32894" fill="#adb5bd"></path></svg>
-            16 分钟</span>
+            22 分钟</span>
             <div class="container-ctgtag">
 	<div class="taxonomy">
 		<div class="tag">
@@ -136,6 +136,14 @@
       </ul>
     </li>
     <li><a href="#第六章-文件系统">第六章 文件系统</a></li>
+    <li><a href="#操作系统往年试卷">操作系统往年试卷</a>
+      <ul>
+        <li><a href="#一单项选择题">一、单项选择题</a></li>
+        <li><a href="#二判断题">二、判断题</a></li>
+        <li><a href="#三简答题">三、简答题</a></li>
+        <li><a href="#四综合题">四、综合题</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -881,6 +889,246 @@
 <li>如果被唤醒的进程比当前运行进程的优先级更高，则设置重新调度标志。</li>
 </ol>
 <h2 id="第六章-文件系统">第六章 文件系统</h2>
+<h2 id="操作系统往年试卷">操作系统往年试卷</h2>
+<h3 id="一单项选择题">一、单项选择题</h3>
+<p>1、下列关于多道程序系统的叙述中，不正确的是_________。</p>
+<p>A) 支持进程的并发执行 				B) 进程数越多 CPU 利用率越高</p>
+<p>C) 不一定支持虚拟存储管理 			D) 需要实现对共享资源的管理</p>
+<blockquote>
+<p>道程序系统可以同时运行多个进程，使它们在系统中并发执行。通过调度算法，系统可以在不同进程之间进行快速切换，实现并发执行。故A正确</p>
+<p>在计算机的早期，多道程序系统中CPU一次读取多个程序放入内存，不必支持虚拟存储管理。故C正确</p>
+<p>在多道程序系统中，多个进程可能同时访问和使用共享资源，如内存、文件系统、设备等。为了避免冲突和资源竞争，操作系统需要实现对共享资源的管理，例如使用锁机制或信号量等机制来协调进程对共享资源的访问。故D正确</p>
+<p>进程数越多，由于竞争CPU的资源，实际上可能降低CPU利用率。故B不正确</p>
+</blockquote>
+<p>2、下列算法中可用于磁盘调度的是________。</p>
+<p>A) OPT 算法 						B) LOOK 算法</p>
+<p>C) LRU 算法 						D) HRRF 算法</p>
+<blockquote>
+<p>磁盘调度算法：</p>
+<p>（1）先来服务法（FCFS）</p>
+<p>（2）最短寻道时间优先法（SSTF）</p>
+<p>（3）扫描法（SCAN）</p>
+<p>（4）巡回扫描法（C-SCAN）</p>
+<p>（5）电梯算法，又称寻查法（LOOK）</p>
+</blockquote>
+<p>3、下列选项中，只在核心态 下执行的指令是________。</p>
+<p>A) 改变指令地址寄存器的内容 B) 读时钟日期 C) 设置时钟日期 D) 除法指令</p>
+<blockquote>
+<p>只能在核心态下执行的指令：</p>
+<p>① 屏蔽所有终端</p>
+<p>② 设置时钟日期</p>
+<p>③ 启动打印机</p>
+<p>⑥ 清内存</p>
+</blockquote>
+<p>4、某进程访问的页面 b 不在内存中，导致产生缺页异常，该缺页异常处理过程中不一定包含的操作是 _________。</p>
+<p>A) 淘汰内存中的页 B) 修改页表中页面 b 对应的存在位 C) 建立页号与页框号的对应关系 D) 将页面 b 从外存读入内存</p>
+<blockquote>
+<p><img src="./imgs/image-20240105132346351.png" alt="image-20240105132346351"></p>
+<p>由图片分析应该选择A</p>
+<p>缺页异常处理过程是指在访问某个页时，发现该页不在内存中而需要从外存中调入的情况。</p>
+<p>A正确。淘汰内存中的页并不是缺页异常处理的必要步骤。淘汰页是在内存空间不足时，为了给新的页腾出空间而选择淘汰一些旧的页。在处理缺页异常时，并不一定需要进行淘汰操作。</p>
+<p>B错误。在处理缺页异常时，需要建立页号与页框号之间的对应关系，以便将对应的页调入内存或者进行其他操作。这是确保后续内存访问可以正确映射的步骤，是缺页异常处理过程中一定包含的操作。</p>
+<p>C错误。当发生缺页异常时，需要将缺失的页从外存读入到内存中，以满足进程的访问需求。是缺页异常处理过程中一定包含的操作。</p>
+<p>D错误。在页表中，通常会使用一位存在位来表示该页是否在内存中，当发生缺页异常处理完成时，需要修改页表中相应页的存在位，将其置为1，表示该页已经调入内存。</p>
+</blockquote>
+<p>5、进程调度又称为低级调度，其主要功能是______。</p>
+<p>A) 选择一个作业调入内存 B) 选择一个外存中的进程调入主存  C) 选择一个主存中的进程换出到外存 D) 将一个就绪态的进程投入运行</p>
+<blockquote>
+<p>进程调度完成进程从就绪态到运行状态的转化。故选D</p>
+</blockquote>
+<p>6、下列关于 CPU 模式的叙述中，正确的是_______。</p>
+<p>A) CPU 处于用户态时只能执行特权指令 B) CPU 处于核心态时只能执行特权指令 C) CPU 处于用户态时只能执行非特权指令 D) CPU 处于核心态时只能执行非特权指令</p>
+<blockquote>
+<p>核心态可以执行所有指令，特权指令只能在核心态被执行，而用户态只能执行非特权指令。</p>
+</blockquote>
+<p>7、下列事件或操作中，可能导致进程 P 由执行态变为阻塞态的是________。</p>
+<p>①进程 P 运行结束 ②进程 P 执行信号量的 wait()操作  ③进程 P 的时间片用完 ④进程 P 申请外设</p>
+<p>A) ③④ 	B) ②④ 	C) ①④ 	D) ①②③</p>
+<blockquote>
+<p>①错误。正常运行结束不会阻塞。</p>
+<p>②正确。进程P执行信号量的wait()操作，说明进程P不具有执行所需的所有系统资源，如果信号量条件不满足，进入阻塞态。</p>
+<p>③错误。进程P的时间片用完，说明进程P不占用CPU，进入就绪态。</p>
+<p>④正确。进程P申请外设，说明进程P不具有执行所需的所有系统资源，进入阻塞态。</p>
+<p>所以②④正确，选B</p>
+</blockquote>
+<p>8、顺序访问磁盘上的物理记录时，效率最高的是______文件。</p>
+<p>A) 连续结构 B) 多重索引结构 C) 链式结构 D) 混合索引结构</p>
+<blockquote>
+</blockquote>
+<p>9、下列设备中，属于共享设备的是_________。</p>
+<p>A) 语音输入输出设备 B) 鼠标 C) 打印机 D) 磁盘</p>
+<blockquote>
+<p>独占设备：只能一个进程独占的设备，如行式打印机、读卡机磁带机之类的设备</p>
+<p>共享设备：高速、大容量、可直接存取，可由若干进程同时共用的设备，如磁盘。</p>
+<p>虚拟设备：用某种技术把独占设备改造成共享设备，不是物理上共享，只是感觉。这类设备属于可共享设备。</p>
+</blockquote>
+<p>10、文件系统根目录的建立是在______操作中完成的。</p>
+<p>A) 操作系统的安装 B) 磁盘的物理格式化 C) 磁盘的逻辑格式化 D) 对磁盘进行分区</p>
+<h3 id="二判断题">二、判断题</h3>
+<p>1、计算机系统中引入缓冲技术的目的是为了节省内存。（）</p>
+<blockquote>
+<p>目的：</p>
+<p>（1）缓和CPU与I/O设备间速度不匹配的矛盾。</p>
+<p>（2）减少对CPU的中断频率，放宽对CPU中断响应时间的限制。</p>
+<p>（3）解决数据粒度不匹配的问题。</p>
+<p>（4）提高CPU和I/O设备之间的并行性。</p>
+</blockquote>
+<p>2、处于阻塞态的进程被唤醒后，可直接变为运行状态。（）</p>
+<blockquote>
+<p>阻塞态变为就绪态，插入就绪队列</p>
+</blockquote>
+<p>3、采用段页式技术管理的系统中产生的内存碎片属于内部碎片。（ ）</p>
+<p>4、并发是指两个或多个活动在同一给定的时间间隔中进行。（ ）</p>
+<blockquote>
+<p>正确，注意区分并行：两个或多个事件在同一时刻发生</p>
+</blockquote>
+<p>5、SPOOLing 系统的主要功能是从逻辑上扩充了内存的容量。（ ）</p>
+<blockquote>
+<p>SPOOLing主要实现了假脱机技术，缓解了CPU与慢速I/O设备的矛盾</p>
+</blockquote>
+<h3 id="三简答题">三、简答题</h3>
+<p>1、简要说明操作系统的主要功能是什么？操作系统最基本的特征有哪些？</p>
+<p>答：主要功能：</p>
+<ul>
+<li>
+<p>处理机管理</p>
+<p>作业和进程调度、进程控制、进程通信</p>
+</li>
+<li>
+<p>存储器管理</p>
+<p>内存分配、地址映射、内存保护、内存扩充</p>
+</li>
+<li>
+<p>设备管理</p>
+<p>缓冲区管理、设备分配、设备驱动、设备无关性</p>
+</li>
+<li>
+<p>文件管理</p>
+<p>文件存储空间的管理、文件操作的一般管理、目录管理、文件的读写管理和存取控制</p>
+</li>
+<li>
+<p>用户接口</p>
+<ul>
+<li>程序接口</li>
+<li>命令行接口</li>
+<li>图形接口</li>
+</ul>
+</li>
+</ul>
+<p>基本特征：</p>
+<ul>
+<li>
+<p>并发</p>
+<p>两个或多个活动在<code>同一给定的时间间隔</code>中进行。</p>
+</li>
+<li>
+<p>共享</p>
+<p>计算机系统中的资源被<code>多个进程</code>所<code>共用</code>。</p>
+</li>
+<li>
+<p>不确定性（异步性）</p>
+<p>系统中各种事件发生顺序的<code>不可预测</code>性。另外，同一程序在相同的初始数据下，无论何时运行都应获得同样的结果。</p>
+</li>
+<li>
+<p>抽象性</p>
+<p>抽象是把<code>复杂事情简单化</code>的有效方式。</p>
+</li>
+</ul>
+<p>2、什么是设备独立性(或设备无关性)？它有什么好处？UNIX 系统中如何实现设备独立性？</p>
+<p>答：设备独立性是指应用程序中使用的设备，不局限于某个具体的物理设备。</p>
+<p>好处：用户程序运行不需要依赖特定的设备完好、是否空闲，可以由系统合理分配，不论使用哪一台同类设备，程序都能正确运行。</p>
+<p>UNIX系统中：</p>
+<h3 id="四综合题">四、综合题</h3>
+<p>1、进程 P1 使用两个互斥缓冲区 A 和 B 向进程 P2、P3 发送消息，每次发送均向两个缓冲区内 写入同样的消息，进程 P2 从缓冲区 A 读取消息，进程 P3 从缓冲区 B 读取消息。只有当 P2、P3 进程都读取这条消息后 P1 才可再向两个缓冲区中分别发送新的消息。试用信号量及其 P、V 操作 描述 3 个进程的并发活动。</p>
+<p>⑴给出各信号量的含义及初值；(4 分)</p>
+<p>⑵写出上述活动的伪码程序。(10 分)</p>
+<p>（1）答：emptyA、emptyB分别表示缓冲区A、B为空，初值为1表示为空，fullA、fullB分别表示缓冲区A、B有消息，初值为0，表示没有消息。</p>
+<p>（2）答：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>process p1{
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">while</span>(true):
+</span></span><span style="display:flex;"><span>    p(emptyA)
+</span></span><span style="display:flex;"><span>  	p(emptyB)
+</span></span><span style="display:flex;"><span>    <span style="color:#998;font-style:italic">#向A、B缓冲区发送消息</span>
+</span></span><span style="display:flex;"><span>    V(fullA)
+</span></span><span style="display:flex;"><span>    v(fullB)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>process p2{
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">while</span>(true):
+</span></span><span style="display:flex;"><span>    p(fullA)
+</span></span><span style="display:flex;"><span>    <span style="color:#998;font-style:italic">#从缓冲区A读取消息</span>
+</span></span><span style="display:flex;"><span>    v(emptyA)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>process p3{
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">while</span>(true)
+</span></span><span style="display:flex;"><span>    p(fullB)
+</span></span><span style="display:flex;"><span>    <span style="color:#998;font-style:italic">#从缓冲区B读取消息</span>
+</span></span><span style="display:flex;"><span>    v(emptyB)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>2、某系统采用二级反馈队列调度算法进行调度。就绪队列 Q1 采用时间片轮转 调度算法，时间 片为 8ms；就绪队列 Q2 采用短进程优先 调度算法。系统优先调度 Q1 队列中的进程，当 Q1 为空时 系统才会调度 Q2 中的进程。新创建的进程首先进入 Q1，Q1 中的进程执行一个时间片后，若未结 束，则转入 Q2。若当前 Q1、Q2 为空，系统依次创建进程 P1、P2 后即开始进程调度，P1、P2 需 要的 CPU 时间分别为 20ms 和 10ms。</p>
+<p>⑴计算并填充下表；</p>
+<p>⑵若系统从 0ms 时刻开始调度，到两个进程都运行结束为止，发生进程调度的总次数是多少？分别发生在哪些时刻？针对哪个进程？</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">进程</th>
+<th style="text-align:center">进入就绪队列时刻</th>
+<th style="text-align:center">CPU执行时间</th>
+<th style="text-align:center">开始时间</th>
+<th style="text-align:center">完成时间</th>
+<th style="text-align:center">周转时间（T）</th>
+<th>带权周转时间（W）</th>
+<th style="text-align:center">在系统中的等待时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">P1</td>
+<td style="text-align:center">0ms</td>
+<td style="text-align:center">20ms</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">P2</td>
+<td style="text-align:center">0ms</td>
+<td style="text-align:center">10ms</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
 
     </div>
     
