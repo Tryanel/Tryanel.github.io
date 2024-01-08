@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Cat</title>
+    <link>https://Tryanel.github.io/tags/linux/</link>
+    <description>Recent content in Linux on Cat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux那些事</title>
+      <link>https://Tryanel.github.io/linux%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/linux%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <description>准备 下载安装ubuntu操作系统 想学习Linux首先当然得具有这么一个操作系统了，ubuntu系统比较适合新手对于Linux的学习 如何安装呢？ 直接到官网下载is</description>
+    </item>
+    
+  </channel>
+</rss>
