@@ -6,7 +6,16 @@
     <description>Recent content on Cat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://Tryanel.github.io/c&#43;&#43;/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/c&#43;&#43;/</guid>
+      <description>C++基础入门 1 C++初识 1.1 第一个C++程序 编写一个C++程序总共分为4个步骤 创建项目 创建文件 编写代码 运行程序 1.1.1 创建项目 ​ Visual Studio是我们用来编写C++程序</description>
+    </item>
+    
     <item>
       <title>力扣刷题题解</title>
       <link>https://Tryanel.github.io/%E5%8A%9B%E6%89%A3%E5%88%B7%E9%A2%98%E9%A2%98%E8%A7%A3/</link>
