@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cat</title>
+    <title>马花花</title>
     <link>https://Tryanel.github.io/</link>
-    <description>Recent content on Cat</description>
+    <description>Recent content on 马花花</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;PrimerExcersize</title>
+      <link>https://Tryanel.github.io/c&#43;&#43;premierexcersize/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/c&#43;&#43;premierexcersize/</guid>
+      <description>C++ Primer Chapter 2 C++ Bases 2.1.1 2.1： C++语言规定一个int至少和一个short一样大，一个long至少和一个int一样大，一个long long至少和一个long一样大。每个</description>
+    </item>
+    
     <item>
       <title>C&#43;&#43;</title>
       <link>https://Tryanel.github.io/c&#43;&#43;/</link>
@@ -41,6 +50,15 @@
       
       <guid>https://Tryanel.github.io/linux%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
       <description>准备 下载安装ubuntu操作系统 想学习Linux首先当然得具有这么一个操作系统了，ubuntu系统比较适合新手对于Linux的学习 如何安装呢？ 直接到官网下载is</description>
+    </item>
+    
+    <item>
+      <title>第三封情书</title>
+      <link>https://Tryanel.github.io/%E7%AC%AC%E4%B8%89%E5%B0%81%E6%83%85%E4%B9%A6/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/%E7%AC%AC%E4%B8%89%E5%B0%81%E6%83%85%E4%B9%A6/</guid>
+      <description>忘了我写了啥了，反正满满一页！！！肯定比前两封加起来都多</description>
     </item>
     
     <item>
@@ -122,6 +140,24 @@
       
       <guid>https://Tryanel.github.io/%E6%88%91%E7%9A%84%E8%B6%85%E4%BA%BA/</guid>
       <description>泪崩故事 一 在我很小的时候，我妈喜欢在地上滚我，我说不清她怎么会有这种爱好。那年我妈二十九，这个神奇的女人，每天下午，都会来到操场，把她两岁的儿子摊在地上，用手一</description>
+    </item>
+    
+    <item>
+      <title>第一封情书</title>
+      <link>https://Tryanel.github.io/%E7%AC%AC%E4%B8%80%E5%B0%81%E6%83%85%E4%B9%A6/</link>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/%E7%AC%AC%E4%B8%80%E5%B0%81%E6%83%85%E4%B9%A6/</guid>
+      <description>第一封情书 完成于二零二三年七月四日 正文 展信佳： ​ 别来无恙，一千八百多公里的路程，经一天的等待也算是缩减到了____。在飞机上、轻轨上就早已料到我会兴奋到，无法停</description>
+    </item>
+    
+    <item>
+      <title>第二封情书</title>
+      <link>https://Tryanel.github.io/%E7%AC%AC%E4%BA%8C%E5%B0%81%E6%83%85%E4%B9%A6/</link>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/%E7%AC%AC%E4%BA%8C%E5%B0%81%E6%83%85%E4%B9%A6/</guid>
+      <description>第二封情书 完成于二零二三年七月六日 正文 展信佳： 一别一百三十多天，今日之后终于要再次相见。不知道你现在在干嘛呢？我好想你啊。 还记得吗？那个时候你都不敢和我对视哦。</description>
     </item>
     
     <item>

@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>default on Cat</title>
+    <title>default on 马花花</title>
     <link>https://Tryanel.github.io/tags/default/</link>
-    <description>Recent content in default on Cat</description>
+    <description>Recent content in default on 马花花</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/default/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/default/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;PrimerExcersize</title>
+      <link>https://Tryanel.github.io/c&#43;&#43;premierexcersize/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/c&#43;&#43;premierexcersize/</guid>
+      <description>C++ Primer Chapter 2 C++ Bases 2.1.1 2.1： C++语言规定一个int至少和一个short一样大，一个long至少和一个int一样大，一个long long至少和一个long一样大。每个</description>
+    </item>
+    
     <item>
       <title>Word常用快捷键</title>
       <link>https://Tryanel.github.io/word%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
