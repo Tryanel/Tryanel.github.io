@@ -6,7 +6,16 @@
     <description>Recent content on 马花花</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis</title>
+      <link>https://Tryanel.github.io/redis/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/redis/</guid>
+      <description>哨兵集群： Redis 1主4从，5个哨兵，哨兵配置quorum为2，如果3个哨兵故障，当主库宕机时，哨兵能否判断主库“客观下线”？能否自动切换？ 经过实际测试，我的结论如下</description>
+    </item>
+    
     <item>
       <title>C&#43;&#43;PrimerExcersize</title>
       <link>https://Tryanel.github.io/c&#43;&#43;premierexcersize/</link>
