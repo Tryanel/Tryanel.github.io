@@ -26,20 +26,29 @@
     </item>
     
     <item>
-      <title>力扣刷题题解</title>
-      <link>https://Tryanel.github.io/%E5%8A%9B%E6%89%A3%E5%88%B7%E9%A2%98%E9%A2%98%E8%A7%A3/</link>
+      <title>C&#43;&#43;</title>
+      <link>https://Tryanel.github.io/c&#43;&#43;/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/c&#43;&#43;/</guid>
+      <description>C++基础入门 1 C++初识 1.1 第一个C++程序 编写一个C++程序总共分为4个步骤 创建项目 创建文件 编写代码 运行程序 1.1.1 创建项目 ​ Visual Studio是我们用来编写C++程序</description>
+    </item>
+    
+    <item>
+      <title>LeetCode</title>
+      <link>https://Tryanel.github.io/leetcode/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Tryanel.github.io/%E5%8A%9B%E6%89%A3%E5%88%B7%E9%A2%98%E9%A2%98%E8%A7%A3/</guid>
+      <guid>https://Tryanel.github.io/leetcode/</guid>
       <description>数组 414 第三大的数 第三大的数 给你一个非空数组，返回此数组中 第三大的数 。如果不存在，则返回数组中最大的数。 示例 1： 输入：[3, 2, 1] 输出：1 解释：第三大的数是 1 。 示例</description>
     </item>
     
     <item>
-      <title>牛客刷题题解</title>
-      <link>https://Tryanel.github.io/%E7%89%9B%E5%AE%A2%E5%88%B7%E9%A2%98%E9%A2%98%E8%A7%A3/</link>
+      <title>NowCoder</title>
+      <link>https://Tryanel.github.io/nowcoder/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Tryanel.github.io/%E7%89%9B%E5%AE%A2%E5%88%B7%E9%A2%98%E9%A2%98%E8%A7%A3/</guid>
+      <guid>https://Tryanel.github.io/nowcoder/</guid>
       <description>剑指Offer</description>
     </item>
     
@@ -50,6 +59,33 @@
       
       <guid>https://Tryanel.github.io/note/</guid>
       <description>学习路线 基础学科 1、计算机基础 40集计算机科学基础哔哩哔哩_bilibili 2、操作系统 清华操作系统 《现代操作系统》 南京大学 计算机系统基础(三)完整 主讲：袁春风</description>
+    </item>
+    
+    <item>
+      <title>Computer NetWork</title>
+      <link>https://Tryanel.github.io/computer-network/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/computer-network/</guid>
+      <description>第一章 概述 Ø 计算机网络在信息时代的作用（了解就行） Ø 互联网概述 Ø 互联网的组成 Ø 计算机网络在我国的发展（了解就行） Ø 计算机网络的类别 Ø 计算机网络的性能 Ø 计算机网络</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering</title>
+      <link>https://Tryanel.github.io/software-engineering/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/software-engineering/</guid>
+      <description>软件工程导论（第六版）学习笔记 第一章 软件工程学概述 1.1 软件危机 1.1.1 软件危机的介绍 软件危机的概念 软件危机是指在计算机软件的开发和维护过程中所遇到的一系列严重问题。 软件</description>
+    </item>
+    
+    <item>
+      <title>Operating System</title>
+      <link>https://Tryanel.github.io/operating-system/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/operating-system/</guid>
+      <description>第一章 操作系统引论 1.1 操作系统概念 计算机系统是有硬件和软件组成的 硬件是指计算机物理装置本身。是软件建立与活动的基础； 软件是计算机执行的程序。是对硬件进行管理和功能</description>
     </item>
     
   </channel>
