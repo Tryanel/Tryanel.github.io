@@ -6,25 +6,7 @@
     <description>Recent content in default on 马花花</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/default/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Redis</title>
-      <link>https://Tryanel.github.io/redis/</link>
-      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://Tryanel.github.io/redis/</guid>
-      <description>哨兵集群： Redis 1主4从，5个哨兵，哨兵配置quorum为2，如果3个哨兵故障，当主库宕机时，哨兵能否判断主库“客观下线”？能否自动切换？ 经过实际测试，我的结论如下</description>
-    </item>
-    
-    <item>
-      <title>C&#43;&#43;PrimerExcersize</title>
-      <link>https://Tryanel.github.io/c&#43;&#43;premierexcersize/</link>
-      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://Tryanel.github.io/c&#43;&#43;premierexcersize/</guid>
-      <description>C++ Primer Chapter 2 C++ Bases 2.1.1 2.1： C++语言规定一个int至少和一个short一样大，一个long至少和一个int一样大，一个long long至少和一个long一样大。每个</description>
-    </item>
-    
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/default/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Word常用快捷键</title>
       <link>https://Tryanel.github.io/word%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
@@ -58,7 +40,7 @@
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/about/</guid>
-      <description>:: 🎇 对自己说的话：铭记 😊 2023年寒假龚滩之行</description>
+      <description>:: 🎇 对自己说的话：铭记 😊 2023年寒假龚滩之行 2024年初南滨路、中央公园</description>
     </item>
     
     <item>

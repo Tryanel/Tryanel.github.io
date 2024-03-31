@@ -6,7 +6,25 @@
     <description>Recent content in CS on 马花花</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis</title>
+      <link>https://Tryanel.github.io/redis/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/redis/</guid>
+      <description>哨兵集群 Redis 1主4从，5个哨兵，哨兵配置quorum为2，如果3个哨兵故障，当主库宕机时，哨兵能否判断主库“客观下线”？能否自动切换？ 经过实际测试，我的结论如下：</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;PrimerPractice</title>
+      <link>https://Tryanel.github.io/c&#43;&#43;premierexcersize/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/c&#43;&#43;premierexcersize/</guid>
+      <description>C++ Primer Chapter 2 C++ Bases 2.1.1 2.1： C++语言规定一个int至少和一个short一样大，一个long至少和一个int一样大，一个long long至少和一个long一样大。每个</description>
+    </item>
+    
     <item>
       <title>力扣刷题题解</title>
       <link>https://Tryanel.github.io/%E5%8A%9B%E6%89%A3%E5%88%B7%E9%A2%98%E9%A2%98%E8%A7%A3/</link>
@@ -22,7 +40,16 @@
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/%E7%89%9B%E5%AE%A2%E5%88%B7%E9%A2%98%E9%A2%98%E8%A7%A3/</guid>
-      <description>语法题 C语言入门</description>
+      <description>剑指Offer</description>
+    </item>
+    
+    <item>
+      <title>Daily</title>
+      <link>https://Tryanel.github.io/note/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/note/</guid>
+      <description>学习路线 基础学科 1、计算机基础 40集计算机科学基础哔哩哔哩_bilibili 2、操作系统 清华操作系统 《现代操作系统》 南京大学 计算机系统基础(三)完整 主讲：袁春风</description>
     </item>
     
   </channel>
