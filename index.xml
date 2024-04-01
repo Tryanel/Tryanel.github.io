@@ -22,7 +22,7 @@
       <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/c&#43;&#43;premierexcersize/</guid>
-      <description>C++ Primer Chapter 2 C++ Bases 2.1.1 2.1： C++语言规定一个int至少和一个short一样大，一个long至少和一个int一样大，一个long long至少和一个long一样大。每个</description>
+      <description>C++ Primer 字典 Part I The Basics 2.1.1 2.1： C++语言规定一个int至少和一个short一样大，一个long至少和一个int一样大，一个long long至少和一个long一样大。</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/leetcode/</guid>
-      <description>数组 414 第三大的数 第三大的数 给你一个非空数组，返回此数组中 第三大的数 。如果不存在，则返回数组中最大的数。 示例 1： 输入：[3, 2, 1] 输出：1 解释：第三大的数是 1 。 示例</description>
+      <description>414 第三大的数 第三大的数 给你一个非空数组，返回此数组中 第三大的数 。如果不存在，则返回数组中最大的数。 示例 1： 输入：[3, 2, 1] 输出：1 解释：第三大的数是 1 。 示例 2：</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/nowcoder/</guid>
-      <description>剑指Offer</description>
+      <description>剑指Offer 链表 JZ35 复杂链表的复制 复杂链表的复制_牛客题霸_牛客网 (nowcoder.com) 描述 输入一个复杂链表（每个节点中有节点值，以及两个指针，一个指向下一个节点，另一个特殊指针r</description>
     </item>
     
     <item>
