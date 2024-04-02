@@ -6,7 +6,16 @@
     <description>Recent content in CS on 马花花</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm</title>
+      <link>https://Tryanel.github.io/algorithm/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/algorithm/</guid>
+      <description>算法 排序算法 Selection Sort Bucket Sort 桶排序是不基于比较的排序算法，其算法思想是将当前需要比较的数据（必须是数字）的进制抽象出来，十进制数就抽象出10个桶（0~9），然后根据具体</description>
+    </item>
+    
     <item>
       <title>Redis</title>
       <link>https://Tryanel.github.io/redis/</link>
