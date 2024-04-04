@@ -49,7 +49,7 @@
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/leetcode/</guid>
-      <description>414 第三大的数 第三大的数 给你一个非空数组，返回此数组中 第三大的数 。如果不存在，则返回数组中最大的数。 示例 1： 输入：[3, 2, 1] 输出：1 解释：第三大的数是 1 。 示例 2：</description>
+      <description>平时刷 414 第三大的数 第三大的数 给你一个非空数组，返回此数组中 第三大的数 。如果不存在，则返回数组中最大的数。 示例 1： 输入：[3, 2, 1] 输出：1 解释：第三大的数是 1 。 示</description>
     </item>
     
     <item>
