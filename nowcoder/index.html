@@ -57,11 +57,11 @@
         <span>
             
             <svg t="1656737548689" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="33866" width="12" height="12"><path d="M832.038608 64.662657H192.030028C121.255125 64.662657 63.940169 121.98845 63.940169 192.694717v446.793671C63.940169 710.205493 121.255125 767.643272 192.030028 767.643272h133.353183a63.940169 63.940169 0 0 1 55.219742 31.576328l76.099638 129.83828c12.358154 21.093031 33.790754 31.626903 55.216129 31.626903s42.832688-10.544709 55.198067-31.619678l76.222461-129.870792a63.940169 63.940169 0 0 1 55.212517-31.551041h133.54103c70.576219 0 127.732228-57.289669 127.732227-127.800865V192.391272C959.825022 121.85479 902.643727 64.662657 832.038608 64.662657zM895.884854 639.842407A63.85347 63.85347 0 0 1 832.092795 703.703103h-133.54103a127.753903 127.753903 0 0 0-110.349172 63.09847l-76.222461 129.856342a0.274545 0.274545 0 0 1 0-0.050574h-0.032512s-0.021675 0.061411-0.032512 0.061412l-76.1466-129.85273A127.804477 127.804477 0 0 0 325.383211 703.703103H192.030028A64.207489 64.207489 0 0 1 127.880338 639.488388V192.694717A64.102729 64.102729 0 0 1 192.030028 128.602826h640.00858A63.799284 63.799284 0 0 1 895.884854 192.391272v447.451135z" fill="#adb5bd" p-id="33867"></path><path d="M608.154093 288.092004A31.970084 31.970084 0 0 0 576.184009 320.062089v160.078006l-134.650049-179.278119A31.970084 31.970084 0 0 0 384.002258 320.062089v255.760676a31.970084 31.970084 0 0 0 63.940169 0v-159.958796l134.650048 179.274507a31.970084 31.970084 0 0 0 57.531703-19.200113V320.062089a31.970084 31.970084 0 0 0-31.970085-31.970085z" fill="#adb5bd" p-id="33868"></path></svg>
-            11499 字</span>&nbsp;
+            12377 字</span>&nbsp;
         <span>
             
             <svg t="1656737462334" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32892" width="12" height="12"><path d="M512 74.666667C270.933333 74.666667 74.666667 270.933333 74.666667 512S270.933333 949.333333 512 949.333333 949.333333 753.066667 949.333333 512 753.066667 74.666667 512 74.666667z m0 810.666666c-204.8 0-373.333333-168.533333-373.333333-373.333333S307.2 138.666667 512 138.666667 885.333333 307.2 885.333333 512 716.8 885.333333 512 885.333333z" p-id="32893" fill="#adb5bd"></path><path d="M695.466667 567.466667l-151.466667-70.4V277.333333c0-17.066667-14.933333-32-32-32s-32 14.933333-32 32v238.933334c0 12.8 6.4 23.466667 19.2 29.866666l170.666667 81.066667c4.266667 2.133333 8.533333 2.133333 12.8 2.133333 12.8 0 23.466667-6.4 29.866666-19.2 6.4-14.933333 0-34.133333-17.066666-42.666666z" p-id="32894" fill="#adb5bd"></path></svg>
-            23 分钟</span>
+            25 分钟</span>
             <div class="container-ctgtag">
 	<div class="taxonomy">
 		<div class="tag">
@@ -118,6 +118,7 @@
         <li><a href="#bm36-判断是不是平衡二叉树">BM36 判断是不是平衡二叉树</a></li>
         <li><a href="#bm37-二叉搜索树的最近公共祖先">BM37 二叉搜索树的最近公共祖先</a></li>
         <li><a href="#bm38-在二叉树中找到两个节点的最近公共祖先">BM38 在二叉树中找到两个节点的最近公共祖先</a></li>
+        <li><a href="#bm39-序列化二叉树">BM39 序列化二叉树</a></li>
       </ul>
     </li>
   </ul>
@@ -2444,6 +2445,124 @@ Tree 1</p>
 </span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">return</span> root<span style="color:#000;font-weight:bold">-&gt;</span>val;
 </span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">else</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">return</span> leftdata <span style="color:#000;font-weight:bold">?</span> <span style="color:#900;font-weight:bold">leftdata</span> : rightdata;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bm39-序列化二叉树">BM39 序列化二叉树</h3>
+<h4 id="描述-28">描述</h4>
+<p>请实现两个函数，分别用来序列化和反序列化二叉树，不对序列化之后的字符串进行约束，但要求能够根据序列化之后的字符串重新构造出一棵与原二叉树相同的树。</p>
+<p>二叉树的序列化(Serialize)是指：把一棵二叉树按照某种遍历方式的结果以某种格式保存为字符串，从而使得内存中建立起来的二叉树可以持久保存。序列化可以基于先序、中序、后序、层序的二叉树等遍历方式来进行修改，序列化的结果是一个字符串，序列化时通过 某种符号表示空节点（#）</p>
+<p>二叉树的反序列化(Deserialize)是指：根据某种遍历顺序得到的序列化字符串结果str，重构二叉树。</p>
+<p>例如，可以根据层序遍历的方案序列化，如下图:</p>
+<img src="./imgs/320409CB186FCD18144519959D510D7E.png" alt="img" style="zoom:80%;" />
+<p>层序序列化(即用函数Serialize转化)如上的二叉树转为&quot;{1,2,3,#,#,6,7}&quot;，再能够调用反序列化(Deserialize)将&quot;{1,2,3,#,#,6,7}&ldquo;构造成如上的二叉树。</p>
+<p>当然你也可以根据满二叉树结点位置的标号规律来序列化，还可以根据先序遍历和中序遍历的结果来序列化。不对序列化之后的字符串进行约束，所以欢迎各种奇思妙想。</p>
+<h4 id="示例1-29">示例1</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>{1,2,3,#,#,6,7}
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>{1,2,3,#,#,6,7}
+</code></pre><p>说明：</p>
+<pre tabindex="0"><code>如题面图   
+</code></pre><h4 id="示例2-27">示例2</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>{8,6,10,5,7,9,11}
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>{8,6,10,5,7,9,11}
+</code></pre><h4 id="题解-30">题解：</h4>
+<p>序列化：其实就是二叉树的前序遍历，并且用<code>,</code>做分隔符，先将当前节点的$val$用<code>to_string()</code>方法转换成string然后追加到string后，进行先序遍历。</p>
+<p>反序列化：相当于二叉树的重建，判断当前的str的值是不是<code>#</code>，是的话直接返回空节点，将string的值转化成int类型的$val$然后new一个节点当做当前的根节点，前序遍历构建根节点的左右子节点。</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">SeralizeFunc</span>(TreeNode <span style="color:#000;font-weight:bold">*</span>root, string <span style="color:#000;font-weight:bold">&amp;</span>str) {
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (root <span style="color:#000;font-weight:bold">==</span> <span style="color:#000;font-weight:bold">nullptr</span>) {
+</span></span><span style="display:flex;"><span>            str <span style="color:#000;font-weight:bold">+=</span> <span style="color:#d14">&#39;#&#39;</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">return</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        string temp <span style="color:#000;font-weight:bold">=</span> to_string(root<span style="color:#000;font-weight:bold">-&gt;</span>val);
+</span></span><span style="display:flex;"><span>        str <span style="color:#000;font-weight:bold">+=</span> temp <span style="color:#000;font-weight:bold">+</span> <span style="color:#d14">&#39;,&#39;</span>;
+</span></span><span style="display:flex;"><span>        SeralizeFunc(root<span style="color:#000;font-weight:bold">-&gt;</span>left, str);
+</span></span><span style="display:flex;"><span>        SeralizeFunc(root<span style="color:#000;font-weight:bold">-&gt;</span>right, str);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">char</span><span style="color:#000;font-weight:bold">*</span> <span style="color:#900;font-weight:bold">Serialize</span>(TreeNode <span style="color:#000;font-weight:bold">*</span>root) {    
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (root <span style="color:#000;font-weight:bold">==</span> <span style="color:#000;font-weight:bold">nullptr</span>) <span style="color:#000;font-weight:bold">return</span> <span style="color:#d14">&#34;#&#34;</span>;
+</span></span><span style="display:flex;"><span>        string res;
+</span></span><span style="display:flex;"><span>        SeralizeFunc(root, res);
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">char</span> <span style="color:#000;font-weight:bold">*</span>charRes <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">new</span> <span style="color:#458;font-weight:bold">char</span>[res.length() <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">1</span>];
+</span></span><span style="display:flex;"><span>        strcpy(charRes, res.c_str());
+</span></span><span style="display:flex;"><span>        charRes[res.length()] <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;\0&#39;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> charRes;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    TreeNode <span style="color:#000;font-weight:bold">*</span><span style="color:#900;font-weight:bold">DeserializeFunc</span>(<span style="color:#458;font-weight:bold">char</span> <span style="color:#000;font-weight:bold">**</span>str) {
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (<span style="color:#000;font-weight:bold">**</span>str <span style="color:#000;font-weight:bold">==</span> <span style="color:#d14">&#39;#&#39;</span>) {
+</span></span><span style="display:flex;"><span>            (<span style="color:#000;font-weight:bold">*</span>str)<span style="color:#000;font-weight:bold">++</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">nullptr</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> val <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">while</span> (<span style="color:#000;font-weight:bold">**</span>str <span style="color:#000;font-weight:bold">!=</span> <span style="color:#d14">&#39;,&#39;</span> <span style="color:#000;font-weight:bold">&amp;&amp;</span> <span style="color:#000;font-weight:bold">**</span>str <span style="color:#000;font-weight:bold">!=</span> <span style="color:#d14">&#39;\0&#39;</span>) {
+</span></span><span style="display:flex;"><span>            val <span style="color:#000;font-weight:bold">=</span> val <span style="color:#000;font-weight:bold">*</span><span style="color:#099">10</span> <span style="color:#000;font-weight:bold">+</span> ((<span style="color:#000;font-weight:bold">**</span>str) <span style="color:#000;font-weight:bold">-</span> <span style="color:#d14">&#39;0&#39;</span>);
+</span></span><span style="display:flex;"><span>            (<span style="color:#000;font-weight:bold">*</span>str)<span style="color:#000;font-weight:bold">++</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        TreeNode <span style="color:#000;font-weight:bold">*</span>root <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">new</span> TreeNode(val);
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (<span style="color:#000;font-weight:bold">**</span>str <span style="color:#000;font-weight:bold">==</span> <span style="color:#d14">&#39;\0&#39;</span>) <span style="color:#000;font-weight:bold">return</span> root;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">else</span>  (<span style="color:#000;font-weight:bold">*</span>str)<span style="color:#000;font-weight:bold">++</span>;
+</span></span><span style="display:flex;"><span>        root<span style="color:#000;font-weight:bold">-&gt;</span>left <span style="color:#000;font-weight:bold">=</span> DeserializeFunc(str);
+</span></span><span style="display:flex;"><span>        root<span style="color:#000;font-weight:bold">-&gt;</span>right <span style="color:#000;font-weight:bold">=</span> DeserializeFunc(str);
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> root;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    TreeNode<span style="color:#000;font-weight:bold">*</span> <span style="color:#900;font-weight:bold">Deserialize</span>(<span style="color:#458;font-weight:bold">char</span> <span style="color:#000;font-weight:bold">*</span>str) {
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (str <span style="color:#000;font-weight:bold">==</span> <span style="color:#d14">&#34;#&#34;</span>) <span style="color:#000;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">nullptr</span>;
+</span></span><span style="display:flex;"><span>        TreeNode <span style="color:#000;font-weight:bold">*</span>res <span style="color:#000;font-weight:bold">=</span> DeserializeFunc(<span style="color:#000;font-weight:bold">&amp;</span>str);
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> res;
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></td></tr></table>
 </div>
