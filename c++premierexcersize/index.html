@@ -57,11 +57,11 @@
         <span>
             
             <svg t="1656737548689" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="33866" width="12" height="12"><path d="M832.038608 64.662657H192.030028C121.255125 64.662657 63.940169 121.98845 63.940169 192.694717v446.793671C63.940169 710.205493 121.255125 767.643272 192.030028 767.643272h133.353183a63.940169 63.940169 0 0 1 55.219742 31.576328l76.099638 129.83828c12.358154 21.093031 33.790754 31.626903 55.216129 31.626903s42.832688-10.544709 55.198067-31.619678l76.222461-129.870792a63.940169 63.940169 0 0 1 55.212517-31.551041h133.54103c70.576219 0 127.732228-57.289669 127.732227-127.800865V192.391272C959.825022 121.85479 902.643727 64.662657 832.038608 64.662657zM895.884854 639.842407A63.85347 63.85347 0 0 1 832.092795 703.703103h-133.54103a127.753903 127.753903 0 0 0-110.349172 63.09847l-76.222461 129.856342a0.274545 0.274545 0 0 1 0-0.050574h-0.032512s-0.021675 0.061411-0.032512 0.061412l-76.1466-129.85273A127.804477 127.804477 0 0 0 325.383211 703.703103H192.030028A64.207489 64.207489 0 0 1 127.880338 639.488388V192.694717A64.102729 64.102729 0 0 1 192.030028 128.602826h640.00858A63.799284 63.799284 0 0 1 895.884854 192.391272v447.451135z" fill="#adb5bd" p-id="33867"></path><path d="M608.154093 288.092004A31.970084 31.970084 0 0 0 576.184009 320.062089v160.078006l-134.650049-179.278119A31.970084 31.970084 0 0 0 384.002258 320.062089v255.760676a31.970084 31.970084 0 0 0 63.940169 0v-159.958796l134.650048 179.274507a31.970084 31.970084 0 0 0 57.531703-19.200113V320.062089a31.970084 31.970084 0 0 0-31.970085-31.970085z" fill="#adb5bd" p-id="33868"></path></svg>
-            4303 字</span>&nbsp;
+            4749 字</span>&nbsp;
         <span>
             
             <svg t="1656737462334" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32892" width="12" height="12"><path d="M512 74.666667C270.933333 74.666667 74.666667 270.933333 74.666667 512S270.933333 949.333333 512 949.333333 949.333333 753.066667 949.333333 512 753.066667 74.666667 512 74.666667z m0 810.666666c-204.8 0-373.333333-168.533333-373.333333-373.333333S307.2 138.666667 512 138.666667 885.333333 307.2 885.333333 512 716.8 885.333333 512 885.333333z" p-id="32893" fill="#adb5bd"></path><path d="M695.466667 567.466667l-151.466667-70.4V277.333333c0-17.066667-14.933333-32-32-32s-32 14.933333-32 32v238.933334c0 12.8 6.4 23.466667 19.2 29.866666l170.666667 81.066667c4.266667 2.133333 8.533333 2.133333 12.8 2.133333 12.8 0 23.466667-6.4 29.866666-19.2 6.4-14.933333 0-34.133333-17.066666-42.666666z" p-id="32894" fill="#adb5bd"></path></svg>
-            9 分钟</span>
+            10 分钟</span>
             <div class="container-ctgtag">
 	<div class="taxonomy">
 		<div class="tag">
@@ -125,6 +125,13 @@
         <li><a href="#412">4.1.2</a></li>
         <li><a href="#413">4.1.3</a></li>
         <li><a href="#42">4.2</a></li>
+        <li><a href="#43">4.3</a></li>
+        <li><a href="#44">4.4</a></li>
+        <li><a href="#45">4.5</a></li>
+        <li><a href="#46">4.6</a></li>
+        <li><a href="#47">4.7</a></li>
+        <li><a href="#48">4.8</a></li>
+        <li><a href="#49">4.9</a></li>
       </ul>
     </li>
   </ul>
@@ -1219,6 +1226,51 @@
 <p>（a）-86	（b）-18	（c）0	（d）-2</p>
 <p>4.6：</p>
 <p><code>a % 2 == 0 ? &quot;偶数&quot; : &quot;奇数&quot;</code></p>
+<h3 id="43">4.3</h3>
+<p><img src="./imgs/image-20240412193835901.png" alt="image-20240412193835901"></p>
+<p>4.8：都是先求左侧，如果左侧无法判断结果再求右侧</p>
+<p>4.9：先判断cp，如果不是空指针，再判断*cp</p>
+<p>4.10：<code>while (cin &gt;&gt; i &amp;&amp; i != 42)</code></p>
+<h3 id="44">4.4</h3>
+<p><img src="./imgs/image-20240412195410307.png" alt="image-20240412195410307"></p>
+<p>4.13:</p>
+<p>(a) i = 3，d = 3.0	(b) i = 3，d = 3.5</p>
+<p>4.14：</p>
+<p>第一句非法，42是右值。第二句会执行if语句内的内容</p>
+<p>4.15：</p>
+<p>因为不能将指针赋值给int和double，可以修改为</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#458;font-weight:bold">double</span> dval; <span style="color:#458;font-weight:bold">int</span> ival; <span style="color:#458;font-weight:bold">int</span> <span style="color:#000;font-weight:bold">*</span>pi;
+</span></span><span style="display:flex;"><span>dval <span style="color:#000;font-weight:bold">=</span> ival <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>pi <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="45">4.5</h3>
+<p><img src="./imgs/image-20240412201341324.png" alt="image-20240412201341324"></p>
+<p>4.17:前置返回将其本身加1后返回，而后置将其加一后返回初始值的副本</p>
+<p>4.18：可能会访问不存在的元素</p>
+<p>4.19：</p>
+<p>（a）ptr不为空且ptr指向的值不为空，并让ptr指向下一个位置</p>
+<p>（b）ival不为0且ival+1不为0</p>
+<p>（c）非法，因为左右两侧都用到了ival，具有二义性，可以改成<code>vec[ival] &lt;= vec[ival + 1]</code>;</p>
+<h3 id="46">4.6</h3>
+<p><img src="./imgs/image-20240412202344059.png" alt="image-20240412202344059"></p>
+<p>4.20:</p>
+<p>(a) 合法，解引用iter并让iter指向下一个位置	(b) 非法，试图将string+1,</p>
+<p>(c) 非法，迭代器没有empty成员	(d) 合法，iter指向的string对象的empty成员</p>
+<p>(e) 非法，字符串不能++	(f) 合法，先判断iter指向的string对象是否为空再++</p>
+<h3 id="47">4.7</h3>
+<p><img src="./imgs/image-20240412203531568.png" alt="image-20240412203531568"></p>
+<h3 id="48">4.8</h3>
+<p><img src="./imgs/image-20240412205248377.png" alt="image-20240412205248377"></p>
+<h3 id="49">4.9</h3>
+<p><img src="./imgs/image-20240412205853373.png" alt="image-20240412205853373"></p>
 
     </div>
     
