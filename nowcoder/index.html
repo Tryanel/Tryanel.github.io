@@ -57,11 +57,11 @@
         <span>
             
             <svg t="1656737548689" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="33866" width="12" height="12"><path d="M832.038608 64.662657H192.030028C121.255125 64.662657 63.940169 121.98845 63.940169 192.694717v446.793671C63.940169 710.205493 121.255125 767.643272 192.030028 767.643272h133.353183a63.940169 63.940169 0 0 1 55.219742 31.576328l76.099638 129.83828c12.358154 21.093031 33.790754 31.626903 55.216129 31.626903s42.832688-10.544709 55.198067-31.619678l76.222461-129.870792a63.940169 63.940169 0 0 1 55.212517-31.551041h133.54103c70.576219 0 127.732228-57.289669 127.732227-127.800865V192.391272C959.825022 121.85479 902.643727 64.662657 832.038608 64.662657zM895.884854 639.842407A63.85347 63.85347 0 0 1 832.092795 703.703103h-133.54103a127.753903 127.753903 0 0 0-110.349172 63.09847l-76.222461 129.856342a0.274545 0.274545 0 0 1 0-0.050574h-0.032512s-0.021675 0.061411-0.032512 0.061412l-76.1466-129.85273A127.804477 127.804477 0 0 0 325.383211 703.703103H192.030028A64.207489 64.207489 0 0 1 127.880338 639.488388V192.694717A64.102729 64.102729 0 0 1 192.030028 128.602826h640.00858A63.799284 63.799284 0 0 1 895.884854 192.391272v447.451135z" fill="#adb5bd" p-id="33867"></path><path d="M608.154093 288.092004A31.970084 31.970084 0 0 0 576.184009 320.062089v160.078006l-134.650049-179.278119A31.970084 31.970084 0 0 0 384.002258 320.062089v255.760676a31.970084 31.970084 0 0 0 63.940169 0v-159.958796l134.650048 179.274507a31.970084 31.970084 0 0 0 57.531703-19.200113V320.062089a31.970084 31.970084 0 0 0-31.970085-31.970085z" fill="#adb5bd" p-id="33868"></path></svg>
-            15038 字</span>&nbsp;
+            16387 字</span>&nbsp;
         <span>
             
             <svg t="1656737462334" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32892" width="12" height="12"><path d="M512 74.666667C270.933333 74.666667 74.666667 270.933333 74.666667 512S270.933333 949.333333 512 949.333333 949.333333 753.066667 949.333333 512 753.066667 74.666667 512 74.666667z m0 810.666666c-204.8 0-373.333333-168.533333-373.333333-373.333333S307.2 138.666667 512 138.666667 885.333333 307.2 885.333333 512 716.8 885.333333 512 885.333333z" p-id="32893" fill="#adb5bd"></path><path d="M695.466667 567.466667l-151.466667-70.4V277.333333c0-17.066667-14.933333-32-32-32s-32 14.933333-32 32v238.933334c0 12.8 6.4 23.466667 19.2 29.866666l170.666667 81.066667c4.266667 2.133333 8.533333 2.133333 12.8 2.133333 12.8 0 23.466667-6.4 29.866666-19.2 6.4-14.933333 0-34.133333-17.066666-42.666666z" p-id="32894" fill="#adb5bd"></path></svg>
-            31 分钟</span>
+            33 分钟</span>
             <div class="container-ctgtag">
 	<div class="taxonomy">
 		<div class="tag">
@@ -126,6 +126,10 @@
         <li><a href="#bm44-有效括号序列">BM44 有效括号序列</a></li>
         <li><a href="#bm45-滑动窗口的最大值">BM45 滑动窗口的最大值</a></li>
         <li><a href="#bm47-寻找第k大">BM47 寻找第K大</a></li>
+        <li><a href="#bm48-数据流的中位数">BM48 数据流的中位数</a></li>
+        <li><a href="#bm49-表达式求值">BM49 表达式求值</a></li>
+        <li><a href="#bm51-数组中出现次数超过一半的数字">BM51 数组中出现次数超过一半的数字</a></li>
+        <li><a href="#bm52-数组中只出现一次的两个数字">BM52 数组中只出现一次的两个数字</a></li>
       </ul>
     </li>
   </ul>
@@ -3099,6 +3103,326 @@ Tree 1</p>
 </span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">findKth</span>(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&amp;</span> a, <span style="color:#458;font-weight:bold">int</span> n, <span style="color:#458;font-weight:bold">int</span> K) {
 </span></span><span style="display:flex;"><span>        <span style="color:#998;font-style:italic">// write code here
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>        <span style="color:#000;font-weight:bold">return</span> quickSelect(a,<span style="color:#099">0</span>, n <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>, n<span style="color:#000;font-weight:bold">-</span>K);
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bm48-数据流的中位数">BM48 数据流的中位数</h3>
+<p><a href="https://www.nowcoder.com/practice/9be0172896bd43948f8a32fb954e1be1?tpId=295&amp;tqId=23457&amp;ru=/exam/oj&amp;qru=/ta/format-top101/question-ranking&amp;sourceUrl=%2Fexam%2Foj">数据流中的中位数_牛客题霸_牛客网 (nowcoder.com)</a></p>
+<h4 id="描述-35">描述</h4>
+<p>如何得到一个数据流中的中位数？如果从数据流中读出奇数个数值，那么中位数就是所有数值排序之后位于中间的数值。如果从数据流中读出偶数个数值，那么中位数就是所有数值排序之后中间两个数的平均值。我们使用Insert()方法读取数据流，使用GetMedian()方法获取当前读取数据的中位数。</p>
+<h4 id="示例1-36">示例1</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[5,2,3,4,1,6,7,0,8]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>&#34;5.00 3.50 3.00 3.50 3.00 3.50 4.00 3.50 4.00 &#34;
+</code></pre><p>说明：</p>
+<pre tabindex="0"><code>数据流里面不断吐出的是5,2,3...,则得到的平均数分别为5,(5+2)/2,3...   
+</code></pre><h4 id="示例2-33">示例2</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[1,1,1]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>&#34;1.00 1.00 1.00 &#34;
+</code></pre><h4 id="题解-37">题解：</h4>
+<p>之前用的排序，非常的操蛋，现在改成大根堆小根堆来做</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>    priority_queue<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> min_q;
+</span></span><span style="display:flex;"><span>    priority_queue<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span>, vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span>, greater<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&gt;</span> max_q;
+</span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">Insert</span>(<span style="color:#458;font-weight:bold">int</span> num) {
+</span></span><span style="display:flex;"><span>        min_q.push(num);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        max_q.push(min_q.top());
+</span></span><span style="display:flex;"><span>        min_q.pop();
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (min_q.size() <span style="color:#000;font-weight:bold">&lt;</span> max_q.size()) {
+</span></span><span style="display:flex;"><span>            min_q.push(max_q.top());
+</span></span><span style="display:flex;"><span>            max_q.pop();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">double</span> <span style="color:#900;font-weight:bold">GetMedian</span>() { 
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> min_q.size() <span style="color:#000;font-weight:bold">&gt;</span> max_q.size() <span style="color:#000;font-weight:bold">?</span> <span style="color:#000;font-weight:bold">static_cast</span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">double</span><span style="color:#000;font-weight:bold">&gt;</span>(min_q.top()) <span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">static_cast</span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">double</span><span style="color:#000;font-weight:bold">&gt;</span>(min_q.top() <span style="color:#000;font-weight:bold">+</span> max_q.top()) <span style="color:#000;font-weight:bold">/</span> <span style="color:#099">2</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bm49-表达式求值">BM49 表达式求值</h3>
+<p><a href="https://www.nowcoder.com/practice/c215ba61c8b1443b996351df929dc4d4?tpId=295&amp;tags=&amp;title=&amp;difficulty=0&amp;judgeStatus=0&amp;rp=0&amp;sourceUrl=%2Fexam%2Foj">表达式求值_牛客题霸_牛客网 (nowcoder.com)</a></p>
+<h4 id="描述-36">描述</h4>
+<p>请写一个整数计算器，支持加减乘三种运算和括号。</p>
+<h4 id="示例1-37">示例1</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>&#34;1+2&#34;
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>3
+</code></pre><h4 id="示例2-34">示例2</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>&#34;(2*(3-4))*5&#34;
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>-10
+</code></pre><h4 id="示例3-9">示例3</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>&#34;3+2*3*4-1&#34;
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>26
+</code></pre><h4 id="题解-38">题解：</h4>
+<p>有点复杂了啊，主要是用好栈，处理好优先级和各种逻辑</p>
+<blockquote>
+<p>这里有个优秀题解可以看看：<a href="https://blog.nowcoder.net/n/c8c1ff4ecfb44ca4958b1ecbdcbf2021?f=comment">【宫水三叶の真题精选】使用「双栈」解决「究极表达式计算」问题（含拓展）_牛客博客 (nowcoder.net)</a></p>
+</blockquote>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>    vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> process(string s, <span style="color:#458;font-weight:bold">int</span> index) {
+</span></span><span style="display:flex;"><span>        stack<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> st;
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> num <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">char</span> op <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;+&#39;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> i;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (i <span style="color:#000;font-weight:bold">=</span> index; i <span style="color:#000;font-weight:bold">&lt;</span> s.size(); <span style="color:#000;font-weight:bold">++</span>i) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (isdigit(s[i])) {                
+</span></span><span style="display:flex;"><span>                num <span style="color:#000;font-weight:bold">=</span> num <span style="color:#000;font-weight:bold">*</span> <span style="color:#099">10</span> <span style="color:#000;font-weight:bold">+</span> s[i] <span style="color:#000;font-weight:bold">-</span> <span style="color:#d14">&#39;0&#39;</span>;
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">if</span> (i <span style="color:#000;font-weight:bold">!=</span> s.size() <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>)
+</span></span><span style="display:flex;"><span>                    <span style="color:#000;font-weight:bold">continue</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (s[i] <span style="color:#000;font-weight:bold">==</span> <span style="color:#d14">&#39;(&#39;</span>) {
+</span></span><span style="display:flex;"><span>                vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> res <span style="color:#000;font-weight:bold">=</span> process(s, i <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">1</span>);
+</span></span><span style="display:flex;"><span>                num <span style="color:#000;font-weight:bold">=</span> res[<span style="color:#099">0</span>];
+</span></span><span style="display:flex;"><span>                i <span style="color:#000;font-weight:bold">=</span> res[<span style="color:#099">1</span>];
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">if</span> (i <span style="color:#000;font-weight:bold">!=</span> s.size() <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>)
+</span></span><span style="display:flex;"><span>                    <span style="color:#000;font-weight:bold">continue</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">switch</span>(op) {
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">case</span> <span style="color:#d14">&#39;+&#39;</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>                    st.push(num);
+</span></span><span style="display:flex;"><span>                    <span style="color:#000;font-weight:bold">break</span>;
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">case</span> <span style="color:#d14">&#39;-&#39;</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>                    st.push(<span style="color:#000;font-weight:bold">-</span>num);
+</span></span><span style="display:flex;"><span>                    <span style="color:#000;font-weight:bold">break</span>;
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">case</span> <span style="color:#d14">&#39;*&#39;</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#458;font-weight:bold">int</span> temp <span style="color:#000;font-weight:bold">=</span> st.top();
+</span></span><span style="display:flex;"><span>                    st.pop();
+</span></span><span style="display:flex;"><span>                    st.push(temp <span style="color:#000;font-weight:bold">*</span> num);
+</span></span><span style="display:flex;"><span>                    <span style="color:#000;font-weight:bold">break</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            num <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (s[i] <span style="color:#000;font-weight:bold">==</span> <span style="color:#d14">&#39;)&#39;</span>)
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">break</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">else</span>
+</span></span><span style="display:flex;"><span>                op <span style="color:#000;font-weight:bold">=</span> s[i];
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> sum <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">while</span> (<span style="color:#000;font-weight:bold">!</span>st.empty()) {
+</span></span><span style="display:flex;"><span>            sum <span style="color:#000;font-weight:bold">+=</span> st.top();
+</span></span><span style="display:flex;"><span>            st.pop();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> {sum, i};
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">solve</span>(string s) {
+</span></span><span style="display:flex;"><span>        <span style="color:#998;font-style:italic">// write code here
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>        <span style="color:#000;font-weight:bold">return</span> process(s, <span style="color:#099">0</span>)[<span style="color:#099">0</span>];
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bm51-数组中出现次数超过一半的数字">BM51 数组中出现次数超过一半的数字</h3>
+<p><a href="https://www.nowcoder.com/practice/e8a1b01a2df14cb2b228b30ee6a92163?tpId=295&amp;tags=&amp;title=&amp;difficulty=0&amp;judgeStatus=0&amp;rp=0&amp;sourceUrl=%2Fexam%2Foj">数组中出现次数超过一半的数字_牛客题霸_牛客网 (nowcoder.com)</a></p>
+<h4 id="描述-37">描述</h4>
+<p>给一个长度为 n 的数组，数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。</p>
+<p>例如输入一个长度为9的数组[1,2,3,2,2,2,5,4,2]。由于数字2在数组中出现了5次，超过数组长度的一半，因此输出2。</p>
+<h5 id="输入描述-3">输入描述：</h5>
+<p>保证数组输入非空，且保证有解</p>
+<h4 id="示例1-38">示例1</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[1,2,3,2,2,2,5,4,2]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>2
+</code></pre><h4 id="示例2-35">示例2</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[3,3,3,3,2,2,2]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>3
+</code></pre><h4 id="示例3-10">示例3</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[1]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>1
+</code></pre><h4 id="题解-39">题解：</h4>
+<p>如果直接用哈希表，那就没什么好说的了，用一个map即可搞定，不过空间复杂度O(n)，解题简单最优解难啊。</p>
+<blockquote>
+<p>这里的解法挺优雅，候选排除法，相当于对题目性质（超过数组长度的一半）的利用了</p>
+</blockquote>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">MoreThanHalfNum_Solution</span>(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&amp;</span> numbers) {
+</span></span><span style="display:flex;"><span>        <span style="color:#998;font-style:italic">// write code here
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>        <span style="color:#458;font-weight:bold">int</span> cnt <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> cond <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">-</span><span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">int</span> i <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>; i <span style="color:#000;font-weight:bold">&lt;</span> numbers.size(); <span style="color:#000;font-weight:bold">++</span>i) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (cnt <span style="color:#000;font-weight:bold">==</span> <span style="color:#099">0</span>) {
+</span></span><span style="display:flex;"><span>                cond <span style="color:#000;font-weight:bold">=</span> numbers[i];
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">++</span>cnt;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">if</span> (numbers[i] <span style="color:#000;font-weight:bold">==</span> cond) <span style="color:#000;font-weight:bold">++</span>cnt;
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">--</span>cnt;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        cnt <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#000;font-weight:bold">const</span> <span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">i</span> : numbers) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (i <span style="color:#000;font-weight:bold">==</span> cond)
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">++</span>cnt;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (cnt <span style="color:#000;font-weight:bold">&gt;</span> numbers.size() <span style="color:#000;font-weight:bold">/</span> <span style="color:#099">2</span>) <span style="color:#000;font-weight:bold">return</span> cond;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bm52-数组中只出现一次的两个数字">BM52 数组中只出现一次的两个数字</h3>
+<p><a href="https://www.nowcoder.com/practice/389fc1c3d3be4479a154f63f495abff8?tpId=295&amp;tags=&amp;title=&amp;difficulty=0&amp;judgeStatus=0&amp;rp=0&amp;sourceUrl=%2Fexam%2Foj">数组中只出现一次的两个数字_牛客题霸_牛客网 (nowcoder.com)</a></p>
+<h4 id="描述-38">描述</h4>
+<p>一个整型数组里除了两个数字只出现一次，其他的数字都出现了两次。请写程序找出这两个只出现一次的数字。</p>
+<p>提示：输出时按非降序排列。</p>
+<h4 id="示例1-39">示例1</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[1,4,1,6]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>[4,6]
+</code></pre><p>说明：</p>
+<pre tabindex="0"><code>返回的结果中较小的数排在前面     
+</code></pre><h4 id="示例2-36">示例2</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[1,2,3,3,2,9]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>[1,9]
+</code></pre><h4 id="题解-40">题解：</h4>
+<p>这道题也是很巧妙的一道题了，位运算，当然用哈希表一样可以解决（O(n)）。用位运算只需要O(1)</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>    vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> findDigit(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">&amp;</span>nums) {
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> num1 <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#000;font-weight:bold">const</span> <span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">a</span> : nums)
+</span></span><span style="display:flex;"><span>            num1 <span style="color:#000;font-weight:bold">^=</span>  a;
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> rightOne <span style="color:#000;font-weight:bold">=</span> num1 <span style="color:#000;font-weight:bold">&amp;</span> (<span style="color:#000;font-weight:bold">~</span>num1 <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">1</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> num2 <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#000;font-weight:bold">const</span> <span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">b</span> : nums) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (b <span style="color:#000;font-weight:bold">&amp;</span> rightOne)
+</span></span><span style="display:flex;"><span>                num2 <span style="color:#000;font-weight:bold">^=</span> b;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        num1 <span style="color:#000;font-weight:bold">^=</span> num2;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> {min(num1, num2), max(num1, num2)};
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> FindNumsAppearOnce(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&amp;</span> nums) {
+</span></span><span style="display:flex;"><span>        <span style="color:#998;font-style:italic">// write code here
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>        <span style="color:#000;font-weight:bold">return</span> <span style="color:#900;font-weight:bold">findDigit</span>(nums);
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></td></tr></table>
 </div>
