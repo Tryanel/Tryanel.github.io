@@ -57,11 +57,11 @@
         <span>
             
             <svg t="1656737548689" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="33866" width="12" height="12"><path d="M832.038608 64.662657H192.030028C121.255125 64.662657 63.940169 121.98845 63.940169 192.694717v446.793671C63.940169 710.205493 121.255125 767.643272 192.030028 767.643272h133.353183a63.940169 63.940169 0 0 1 55.219742 31.576328l76.099638 129.83828c12.358154 21.093031 33.790754 31.626903 55.216129 31.626903s42.832688-10.544709 55.198067-31.619678l76.222461-129.870792a63.940169 63.940169 0 0 1 55.212517-31.551041h133.54103c70.576219 0 127.732228-57.289669 127.732227-127.800865V192.391272C959.825022 121.85479 902.643727 64.662657 832.038608 64.662657zM895.884854 639.842407A63.85347 63.85347 0 0 1 832.092795 703.703103h-133.54103a127.753903 127.753903 0 0 0-110.349172 63.09847l-76.222461 129.856342a0.274545 0.274545 0 0 1 0-0.050574h-0.032512s-0.021675 0.061411-0.032512 0.061412l-76.1466-129.85273A127.804477 127.804477 0 0 0 325.383211 703.703103H192.030028A64.207489 64.207489 0 0 1 127.880338 639.488388V192.694717A64.102729 64.102729 0 0 1 192.030028 128.602826h640.00858A63.799284 63.799284 0 0 1 895.884854 192.391272v447.451135z" fill="#adb5bd" p-id="33867"></path><path d="M608.154093 288.092004A31.970084 31.970084 0 0 0 576.184009 320.062089v160.078006l-134.650049-179.278119A31.970084 31.970084 0 0 0 384.002258 320.062089v255.760676a31.970084 31.970084 0 0 0 63.940169 0v-159.958796l134.650048 179.274507a31.970084 31.970084 0 0 0 57.531703-19.200113V320.062089a31.970084 31.970084 0 0 0-31.970085-31.970085z" fill="#adb5bd" p-id="33868"></path></svg>
-            4885 字</span>&nbsp;
+            5400 字</span>&nbsp;
         <span>
             
             <svg t="1656737462334" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32892" width="12" height="12"><path d="M512 74.666667C270.933333 74.666667 74.666667 270.933333 74.666667 512S270.933333 949.333333 512 949.333333 949.333333 753.066667 949.333333 512 753.066667 74.666667 512 74.666667z m0 810.666666c-204.8 0-373.333333-168.533333-373.333333-373.333333S307.2 138.666667 512 138.666667 885.333333 307.2 885.333333 512 716.8 885.333333 512 885.333333z" p-id="32893" fill="#adb5bd"></path><path d="M695.466667 567.466667l-151.466667-70.4V277.333333c0-17.066667-14.933333-32-32-32s-32 14.933333-32 32v238.933334c0 12.8 6.4 23.466667 19.2 29.866666l170.666667 81.066667c4.266667 2.133333 8.533333 2.133333 12.8 2.133333 12.8 0 23.466667-6.4 29.866666-19.2 6.4-14.933333 0-34.133333-17.066666-42.666666z" p-id="32894" fill="#adb5bd"></path></svg>
-            10 分钟</span>
+            11 分钟</span>
             <div class="container-ctgtag">
 	<div class="taxonomy">
 		<div class="tag">
@@ -133,6 +133,19 @@
         <li><a href="#48">4.8</a></li>
         <li><a href="#49">4.9</a></li>
         <li><a href="#410">4.10</a></li>
+        <li><a href="#4111">4.11.1</a></li>
+        <li><a href="#4113">4.11.3</a></li>
+        <li><a href="#51">5.1</a></li>
+        <li><a href="#52">5.2</a></li>
+        <li><a href="#531">5.3.1</a></li>
+        <li><a href="#532">5.3.2</a></li>
+        <li><a href="#541">5.4.1</a></li>
+        <li><a href="#542">5.4.2</a></li>
+        <li><a href="#544">5.4.4</a></li>
+        <li><a href="#551">5.5.1</a></li>
+        <li><a href="#552">5.5.2</a></li>
+        <li><a href="#553">5.5.3</a></li>
+        <li><a href="#563">5.6.3</a></li>
       </ul>
     </li>
   </ul>
@@ -1346,12 +1359,97 @@
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></td></tr></table>
 </div>
+</div><p>多个if语句显然更好理解，因为条件运算符包含了多重嵌套，阅读起来比较费力</p>
+<p>4.23：</p>
+<p>+的优先级大于==和?，所以会先执行<code>s + s[size() - 1] </code>，不符合题意，并且string不能与char比较，应修改为：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>string s <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;word&#34;</span>;
+</span></span><span style="display:flex;"><span>string p1 <span style="color:#000;font-weight:bold">=</span> s <span style="color:#000;font-weight:bold">+</span> (s[size() <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>] <span style="color:#000;font-weight:bold">==</span> <span style="color:#d14">&#34;s&#34;</span> <span style="color:#000;font-weight:bold">?</span> <span style="color:#d14">&#34;&#34;</span> <span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#34;s&#34;</span>);
+</span></span></code></pre></td></tr></table>
+</div>
 </div><h3 id="48">4.8</h3>
 <p><img src="./imgs/image-20240412205248377.png" alt="image-20240412205248377"></p>
+<p>4.25: 结果未定义，在对q取反的时候会转换成int类型，而取反后得到一个负数，如果一个对象是带符号的值而且为负，那么这里的移位运算符如何处理符号位依赖于机器</p>
+<p>4.26：在不同的机器上int最小位数不一定，可能存在int占16位的情况，导致位数不够</p>
+<p>4.27：</p>
+<p>（a）3	（b）7</p>
+<p>（c）true	（d）true</p>
 <h3 id="49">4.9</h3>
 <p><img src="./imgs/image-20240412205853373.png" alt="image-20240412205853373"></p>
+<p>4.28：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">main</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    cout <span style="color:#000;font-weight:bold">&lt;&lt;</span> <span style="color:#000;font-weight:bold">sizeof</span>(<span style="color:#458;font-weight:bold">bool</span>) <span style="color:#000;font-weight:bold">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>    cout <span style="color:#000;font-weight:bold">&lt;&lt;</span> <span style="color:#000;font-weight:bold">sizeof</span>(<span style="color:#458;font-weight:bold">char</span>) <span style="color:#000;font-weight:bold">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>    cout <span style="color:#000;font-weight:bold">&lt;&lt;</span> <span style="color:#000;font-weight:bold">sizeof</span>(<span style="color:#458;font-weight:bold">short</span>) <span style="color:#000;font-weight:bold">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>    cout <span style="color:#000;font-weight:bold">&lt;&lt;</span> <span style="color:#000;font-weight:bold">sizeof</span>(<span style="color:#458;font-weight:bold">int</span>) <span style="color:#000;font-weight:bold">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>    cout <span style="color:#000;font-weight:bold">&lt;&lt;</span> <span style="color:#000;font-weight:bold">sizeof</span>(<span style="color:#458;font-weight:bold">float</span>) <span style="color:#000;font-weight:bold">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>    cout <span style="color:#000;font-weight:bold">&lt;&lt;</span> <span style="color:#000;font-weight:bold">sizeof</span>(<span style="color:#458;font-weight:bold">long</span>) <span style="color:#000;font-weight:bold">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>    cout <span style="color:#000;font-weight:bold">&lt;&lt;</span> <span style="color:#000;font-weight:bold">sizeof</span>(<span style="color:#458;font-weight:bold">double</span>) <span style="color:#000;font-weight:bold">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>    cout <span style="color:#000;font-weight:bold">&lt;&lt;</span> <span style="color:#000;font-weight:bold">sizeof</span>(<span style="color:#458;font-weight:bold">long</span> <span style="color:#458;font-weight:bold">long</span>) <span style="color:#000;font-weight:bold">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>    cout <span style="color:#000;font-weight:bold">&lt;&lt;</span> <span style="color:#000;font-weight:bold">sizeof</span>(<span style="color:#458;font-weight:bold">long</span> <span style="color:#458;font-weight:bold">double</span>) <span style="color:#000;font-weight:bold">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">return</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>4.29：10, 2</p>
+<p>4.30：</p>
+<p>（a）(sizeof x) + y	（b）sizeof(p-&gt;men[i])</p>
+<p>（c）(sizeof a) &lt; b	（d）sizeof(f())</p>
 <h3 id="410">4.10</h3>
 <img src="./imgs/image-20240414223111309.png" alt="image-20240414223111309" style="zoom:80%;" />
+<p>4.31：后置版本会保存未修改的值并返回，如果不需要则使用前置版本。不需要做改动</p>
+<p>4.32：两种遍历数组的方式，iptr是指针，ix是索引</p>
+<p>4.33：(someValue ? ++x, ++y : &ndash;x), &ndash;y</p>
+<h3 id="4111">4.11.1</h3>
+<img src="./imgs/image-20240416201201452.png" alt="image-20240416201201452" style="zoom:80%;" />
+<p>4.34：</p>
+<h3 id="4113">4.11.3</h3>
+<img src="./imgs/image-20240419081328156.png" alt="image-20240419081328156" style="zoom: 80%;" />
+<h3 id="51">5.1</h3>
+<p><img src="./imgs/image-20240419082851706.png" alt="image-20240419082851706"></p>
+<h3 id="52">5.2</h3>
+<p><img src="./imgs/image-20240419083013270.png" alt="image-20240419083013270"></p>
+<h3 id="531">5.3.1</h3>
+<p><img src="./imgs/image-20240419084519303.png" alt="image-20240419084519303"></p>
+<h3 id="532">5.3.2</h3>
+<p><img src="./imgs/image-20240419085745522.png" alt="image-20240419085745522"></p>
+<h3 id="541">5.4.1</h3>
+<p><img src="./imgs/image-20240419090722127.png" alt="image-20240419090722127"></p>
+<h3 id="542">5.4.2</h3>
+<p><img src="./imgs/image-20240419091542899.png" alt="image-20240419091542899"></p>
+<h3 id="544">5.4.4</h3>
+<p><img src="./imgs/image-20240420091611659.png" alt="image-20240420091611659"></p>
+<h3 id="551">5.5.1</h3>
+<p><img src="./imgs/image-20240420091820819.png" alt="image-20240420091820819"></p>
+<h3 id="552">5.5.2</h3>
+<p><img src="./imgs/image-20240420092015672.png" alt="image-20240420092015672"></p>
+<h3 id="553">5.5.3</h3>
+<p><img src="./imgs/image-20240420092331123.png" alt="image-20240420092331123"></p>
+<h3 id="563">5.6.3</h3>
+<p><img src="./imgs/image-20240420094034595.png" alt="image-20240420094034595"></p>
 
     </div>
     

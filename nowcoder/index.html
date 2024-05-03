@@ -57,11 +57,11 @@
         <span>
             
             <svg t="1656737548689" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="33866" width="12" height="12"><path d="M832.038608 64.662657H192.030028C121.255125 64.662657 63.940169 121.98845 63.940169 192.694717v446.793671C63.940169 710.205493 121.255125 767.643272 192.030028 767.643272h133.353183a63.940169 63.940169 0 0 1 55.219742 31.576328l76.099638 129.83828c12.358154 21.093031 33.790754 31.626903 55.216129 31.626903s42.832688-10.544709 55.198067-31.619678l76.222461-129.870792a63.940169 63.940169 0 0 1 55.212517-31.551041h133.54103c70.576219 0 127.732228-57.289669 127.732227-127.800865V192.391272C959.825022 121.85479 902.643727 64.662657 832.038608 64.662657zM895.884854 639.842407A63.85347 63.85347 0 0 1 832.092795 703.703103h-133.54103a127.753903 127.753903 0 0 0-110.349172 63.09847l-76.222461 129.856342a0.274545 0.274545 0 0 1 0-0.050574h-0.032512s-0.021675 0.061411-0.032512 0.061412l-76.1466-129.85273A127.804477 127.804477 0 0 0 325.383211 703.703103H192.030028A64.207489 64.207489 0 0 1 127.880338 639.488388V192.694717A64.102729 64.102729 0 0 1 192.030028 128.602826h640.00858A63.799284 63.799284 0 0 1 895.884854 192.391272v447.451135z" fill="#adb5bd" p-id="33867"></path><path d="M608.154093 288.092004A31.970084 31.970084 0 0 0 576.184009 320.062089v160.078006l-134.650049-179.278119A31.970084 31.970084 0 0 0 384.002258 320.062089v255.760676a31.970084 31.970084 0 0 0 63.940169 0v-159.958796l134.650048 179.274507a31.970084 31.970084 0 0 0 57.531703-19.200113V320.062089a31.970084 31.970084 0 0 0-31.970085-31.970085z" fill="#adb5bd" p-id="33868"></path></svg>
-            16387 字</span>&nbsp;
+            17872 字</span>&nbsp;
         <span>
             
             <svg t="1656737462334" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32892" width="12" height="12"><path d="M512 74.666667C270.933333 74.666667 74.666667 270.933333 74.666667 512S270.933333 949.333333 512 949.333333 949.333333 753.066667 949.333333 512 753.066667 74.666667 512 74.666667z m0 810.666666c-204.8 0-373.333333-168.533333-373.333333-373.333333S307.2 138.666667 512 138.666667 885.333333 307.2 885.333333 512 716.8 885.333333 512 885.333333z" p-id="32893" fill="#adb5bd"></path><path d="M695.466667 567.466667l-151.466667-70.4V277.333333c0-17.066667-14.933333-32-32-32s-32 14.933333-32 32v238.933334c0 12.8 6.4 23.466667 19.2 29.866666l170.666667 81.066667c4.266667 2.133333 8.533333 2.133333 12.8 2.133333 12.8 0 23.466667-6.4 29.866666-19.2 6.4-14.933333 0-34.133333-17.066666-42.666666z" p-id="32894" fill="#adb5bd"></path></svg>
-            33 分钟</span>
+            36 分钟</span>
             <div class="container-ctgtag">
 	<div class="taxonomy">
 		<div class="tag">
@@ -130,6 +130,11 @@
         <li><a href="#bm49-表达式求值">BM49 表达式求值</a></li>
         <li><a href="#bm51-数组中出现次数超过一半的数字">BM51 数组中出现次数超过一半的数字</a></li>
         <li><a href="#bm52-数组中只出现一次的两个数字">BM52 数组中只出现一次的两个数字</a></li>
+        <li><a href="#bm53-缺失的第一个正整数">BM53 缺失的第一个正整数</a></li>
+        <li><a href="#bm55-没有重复项数字的全排列">BM55 没有重复项数字的全排列</a></li>
+        <li><a href="#bm56-有重复项数字的全排列">BM56 有重复项数字的全排列</a></li>
+        <li><a href="#bm57-岛屿数量">BM57 岛屿数量</a></li>
+        <li><a href="#bm58-字符串的排列">BM58 字符串的排列</a></li>
       </ul>
     </li>
   </ul>
@@ -3423,6 +3428,401 @@ Tree 1</p>
 </span></span><span style="display:flex;"><span>    vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> FindNumsAppearOnce(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&amp;</span> nums) {
 </span></span><span style="display:flex;"><span>        <span style="color:#998;font-style:italic">// write code here
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>        <span style="color:#000;font-weight:bold">return</span> <span style="color:#900;font-weight:bold">findDigit</span>(nums);
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bm53-缺失的第一个正整数">BM53 缺失的第一个正整数</h3>
+<p><a href="https://www.nowcoder.com/practice/50ec6a5b0e4e45348544348278cdcee5?tpId=295&amp;tqId=2188893&amp;ru=/exam/oj&amp;qru=/ta/format-top101/question-ranking&amp;sourceUrl=%2Fexam%2Foj">缺失的第一个正整数_牛客题霸_牛客网 (nowcoder.com)</a></p>
+<p><strong>题解：</strong></p>
+<p>已经是第二次碰到这个题了，大概思路知道了，不过发现了一个小细节</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">minNumberDisappeared</span>(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&amp;</span> nums) {
+</span></span><span style="display:flex;"><span>        <span style="color:#998;font-style:italic">// write code here
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>        <span style="color:#458;font-weight:bold">int</span> n <span style="color:#000;font-weight:bold">=</span> nums.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">int</span> <span style="color:#000;font-weight:bold">&amp;</span><span style="color:#900;font-weight:bold">i</span> : nums) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (i <span style="color:#000;font-weight:bold">&lt;=</span> <span style="color:#099">0</span>)
+</span></span><span style="display:flex;"><span>                i <span style="color:#000;font-weight:bold">=</span> n <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">int</span> i <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>; i <span style="color:#000;font-weight:bold">&lt;</span> n; i<span style="color:#000;font-weight:bold">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#458;font-weight:bold">int</span> num <span style="color:#000;font-weight:bold">=</span> abs(nums[i]);	<span style="color:#998;font-style:italic">//一定要有这一步，因为nums[i]可能被标记为负
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>            <span style="color:#000;font-weight:bold">if</span> (num <span style="color:#000;font-weight:bold">&lt;=</span> n) {
+</span></span><span style="display:flex;"><span>                nums[num <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>] <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">-</span> abs(nums[num <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>]);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">int</span> i <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>; i <span style="color:#000;font-weight:bold">&lt;</span> n ; i<span style="color:#000;font-weight:bold">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (nums[i] <span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#099">0</span>)
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">return</span> i<span style="color:#000;font-weight:bold">+</span><span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> n <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bm55-没有重复项数字的全排列">BM55 没有重复项数字的全排列</h3>
+<p><a href="https://www.nowcoder.com/practice/4bcf3081067a4d028f95acee3ddcd2b1?tpId=295&amp;tqId=701&amp;ru=/exam/oj&amp;qru=/ta/format-top101/question-ranking&amp;sourceUrl=%2Fexam%2Foj">没有重复项数字的全排列_牛客题霸_牛客网 (nowcoder.com)</a></p>
+<h4 id="描述-39">描述</h4>
+<p>给出一组数字，返回该组数字的所有排列</p>
+<p>例如：</p>
+<p>[1,2,3]的所有排列如下
+[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2], [3,2,1].
+（以数字在数组中的位置靠前为优先级，按字典序排列输出。）</p>
+<h4 id="示例1-40">示例1</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[1,2,3]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+</code></pre><h4 id="示例2-37">示例2</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[1]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>[[1]]
+</code></pre><p><strong>题解：</strong></p>
+<p>利用递归可以解决</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>    vector<span style="color:#000;font-weight:bold">&lt;</span>vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">&gt;</span> permute(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&amp;</span> num) {
+</span></span><span style="display:flex;"><span>        <span style="color:#998;font-style:italic">// write code here
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>        sort(num.begin(), num.end());
+</span></span><span style="display:flex;"><span>        vector<span style="color:#000;font-weight:bold">&lt;</span>vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&gt;</span> res;
+</span></span><span style="display:flex;"><span>        recursion(res, num, <span style="color:#099">0</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> res;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">void</span>  <span style="color:#900;font-weight:bold">recursion</span>(vector<span style="color:#000;font-weight:bold">&lt;</span>vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&gt;</span> <span style="color:#000;font-weight:bold">&amp;</span>res, vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">&amp;</span>num, <span style="color:#458;font-weight:bold">int</span> index) {
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (index <span style="color:#000;font-weight:bold">==</span> num.size())
+</span></span><span style="display:flex;"><span>            res.push_back(num);
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">int</span> i <span style="color:#000;font-weight:bold">=</span> index; i <span style="color:#000;font-weight:bold">&lt;</span> num.size(); <span style="color:#000;font-weight:bold">++</span>i) {
+</span></span><span style="display:flex;"><span>                swap(num[i], num[index]);
+</span></span><span style="display:flex;"><span>                recursion(res, num, index <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">1</span>);		<span style="color:#998;font-style:italic">//递归后续的
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>                swap(num[i], num[index]);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bm56-有重复项数字的全排列">BM56 有重复项数字的全排列</h3>
+<p><a href="https://www.nowcoder.com/practice/a43a2b986ef34843ac4fdd9159b69863?tpId=295&amp;tqId=700&amp;ru=/exam/oj&amp;qru=/ta/format-top101/question-ranking&amp;sourceUrl=%2Fexam%2Foj">有重复项数字的全排列_牛客题霸_牛客网 (nowcoder.com)</a></p>
+<h4 id="描述-40">描述</h4>
+<p>给出一组可能包含重复项的数字，返回该组数字的所有排列。结果以字典序升序排列。</p>
+<h4 id="示例1-41">示例1</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[1,1,2]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>[[1,1,2],[1,2,1],[2,1,1]]
+</code></pre><h4 id="示例2-38">示例2</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[0,1]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>[[0,1],[1,0]]
+</code></pre><h4 id="题解-41">题解：</h4>
+<p>其实和上面的无重复项数字的全排列差不多，就是多了个判断是否用过而已</p>
+<blockquote>
+<p>::回溯真的是我的硬伤啊，得狠狠刷起来</p>
+</blockquote>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>    vector<span style="color:#000;font-weight:bold">&lt;</span>vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">&gt;</span> permuteUnique(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&amp;</span> num) {
+</span></span><span style="display:flex;"><span>        <span style="color:#998;font-style:italic">// write code here
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>        sort(num.begin(), num.end());
+</span></span><span style="display:flex;"><span>        vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> used(num.size(), <span style="color:#099">0</span>);
+</span></span><span style="display:flex;"><span>        vector<span style="color:#000;font-weight:bold">&lt;</span>vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&gt;</span> ans;
+</span></span><span style="display:flex;"><span>        vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> temp;
+</span></span><span style="display:flex;"><span>        backtrack(ans, num, temp, used);
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> ans;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">backtrack</span>(vector<span style="color:#000;font-weight:bold">&lt;</span>vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&gt;</span> <span style="color:#000;font-weight:bold">&amp;</span>ans, vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">&amp;</span>num, vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">&amp;</span>temp, vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> used) {
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (temp.size() <span style="color:#000;font-weight:bold">==</span> num.size()) {
+</span></span><span style="display:flex;"><span>            ans.push_back(temp);
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">return</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">int</span> i <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>; i <span style="color:#000;font-weight:bold">&lt;</span> num.size(); <span style="color:#000;font-weight:bold">++</span>i) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (used[i])
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">continue</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (i <span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#099">0</span> <span style="color:#000;font-weight:bold">&amp;&amp;</span> num[ i <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>] <span style="color:#000;font-weight:bold">==</span> num[i] <span style="color:#000;font-weight:bold">&amp;&amp;</span> used[i <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>]) {
+</span></span><span style="display:flex;"><span>                used[i] <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">continue</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            used[i] <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>            temp.push_back(num[i]);
+</span></span><span style="display:flex;"><span>            backtrack(ans, num, temp, used);
+</span></span><span style="display:flex;"><span>            used[i] <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>            temp.pop_back();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bm57-岛屿数量">BM57 岛屿数量</h3>
+<p><a href="https://www.nowcoder.com/practice/0c9664d1554e466aa107d899418e814e?tpId=295&amp;tags=&amp;title=&amp;difficulty=0&amp;judgeStatus=0&amp;rp=0&amp;sourceUrl=%2Fexam%2Foj">岛屿数量_牛客题霸_牛客网 (nowcoder.com)</a></p>
+<h4 id="描述-41">描述</h4>
+<p>给一个01矩阵，1代表是陆地，0代表海洋， 如果两个1相邻，那么这两个1属于同一个岛。我们只考虑上下左右为相邻。</p>
+<p>岛屿: 相邻陆地可以组成一个岛屿（相邻:上下左右） 判断岛屿个数。</p>
+<p>例如：</p>
+<p>输入</p>
+<p>[</p>
+<p>[1,1,0,0,0],</p>
+<p>[0,1,0,1,1],</p>
+<p>[0,0,0,1,1],</p>
+<p>[0,0,0,0,0],</p>
+<p>[0,0,1,1,1]</p>
+<p>]</p>
+<p>对应的输出为3</p>
+<p>(注：存储的01数据其实是字符'0&rsquo;,&lsquo;1&rsquo;)</p>
+<h4 id="示例1-42">示例1</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[[1,1,0,0,0],[0,1,0,1,1],[0,0,0,1,1],[0,0,0,0,0],[0,0,1,1,1]]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>3
+</code></pre><h4 id="示例2-39">示例2</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[[0]]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>0
+</code></pre><h4 id="示例3-11">示例3</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>[[1,1],[1,1]]
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>1
+</code></pre><h4 id="备注-2">备注：</h4>
+<pre tabindex="0"><code>01矩阵范围&lt;=200*200
+</code></pre><h4 id="题解-42">题解：</h4>
+<p>图的dfs套路，其实是第二次做了，更熟悉了一点</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">solve</span>(vector<span style="color:#000;font-weight:bold">&lt;</span>vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">char</span><span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">&gt;&amp;</span> grid) {
+</span></span><span style="display:flex;"><span>        <span style="color:#998;font-style:italic">// write code here
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>        <span style="color:#000;font-weight:bold">if</span> (grid.size() <span style="color:#000;font-weight:bold">==</span> <span style="color:#099">0</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">return</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> m <span style="color:#000;font-weight:bold">=</span> grid.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> n <span style="color:#000;font-weight:bold">=</span> grid[<span style="color:#099">0</span>].size();
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> cnt <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">int</span> i <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>; i <span style="color:#000;font-weight:bold">&lt;</span> m; <span style="color:#000;font-weight:bold">++</span>i) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">int</span> j <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>; j <span style="color:#000;font-weight:bold">&lt;</span> n; <span style="color:#000;font-weight:bold">++</span>j) {
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">if</span> (grid[i][j] <span style="color:#000;font-weight:bold">==</span> <span style="color:#d14">&#39;1&#39;</span>) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#000;font-weight:bold">++</span>cnt;
+</span></span><span style="display:flex;"><span>                    dfs(grid, i, j);
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> cnt;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">dfs</span>(vector<span style="color:#000;font-weight:bold">&lt;</span>vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">char</span><span style="color:#000;font-weight:bold">&gt;&gt;</span> <span style="color:#000;font-weight:bold">&amp;</span>grid, <span style="color:#458;font-weight:bold">int</span> i, <span style="color:#458;font-weight:bold">int</span> j) {
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (i <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#099">0</span> <span style="color:#000;font-weight:bold">||</span> j <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#099">0</span> <span style="color:#000;font-weight:bold">||</span> i <span style="color:#000;font-weight:bold">&gt;=</span> grid.size() <span style="color:#000;font-weight:bold">||</span> j <span style="color:#000;font-weight:bold">&gt;=</span> grid[<span style="color:#099">0</span>].size())
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">return</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (grid[i][j] <span style="color:#000;font-weight:bold">==</span> <span style="color:#d14">&#39;1&#39;</span>) {
+</span></span><span style="display:flex;"><span>        grid[i][j] <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;2&#39;</span>;
+</span></span><span style="display:flex;"><span>        dfs(grid, i <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">1</span>, j);
+</span></span><span style="display:flex;"><span>        dfs(grid, i <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>, j);
+</span></span><span style="display:flex;"><span>        dfs(grid, i, j <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>);
+</span></span><span style="display:flex;"><span>        dfs(grid, i, j <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">1</span>);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bm58-字符串的排列">BM58 字符串的排列</h3>
+<p><a href="https://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?tpId=295&amp;tags=&amp;title=&amp;difficulty=0&amp;judgeStatus=0&amp;rp=0&amp;sourceUrl=%2Fexam%2Foj">字符串的排列_牛客题霸_牛客网 (nowcoder.com)</a></p>
+<h4 id="描述-42">描述</h4>
+<p>输入一个长度为 n 字符串，打印出该字符串中字符的所有排列，你可以以任意顺序返回这个字符串数组。</p>
+<p>例如输入字符串ABC,则输出由字符A,B,C所能排列出来的所有字符串ABC,ACB,BAC,BCA,CBA和CAB。</p>
+<img src="./imgs/6226390B4185DB132AFFDB10F09F8BEB.png" alt="img" style="zoom:67%;" />
+<h4 id="输入描述-4">输入描述：</h4>
+<p>输入一个字符串,长度不超过10,字符只包括大小写字母。</p>
+<h4 id="示例1-43">示例1</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>&#34;ab&#34;
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>[&#34;ab&#34;,&#34;ba&#34;]
+</code></pre><p>说明：</p>
+<pre tabindex="0"><code>返回[&#34;ba&#34;,&#34;ab&#34;]也是正确的         
+</code></pre><h4 id="示例2-40">示例2</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>&#34;aab&#34;
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>[&#34;aab&#34;,&#34;aba&#34;,&#34;baa&#34;]
+</code></pre><h4 id="示例3-12">示例3</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>&#34;abc&#34;
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>[&#34;abc&#34;,&#34;acb&#34;,&#34;bac&#34;,&#34;bca&#34;,&#34;cab&#34;,&#34;cba&#34;]
+</code></pre><p>复制</p>
+<h4 id="示例4-1">示例4</h4>
+<p>输入：</p>
+<pre tabindex="0"><code>&#34;&#34;
+</code></pre><p>返回值：</p>
+<pre tabindex="0"><code>[&#34;&#34;]
+</code></pre><h4 id="题解-43">题解：</h4>
+<p>和今天做的一个有重复数字的全排列很像，都是回溯法，得好好看看（感觉好多都是套路）</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>    vector<span style="color:#000;font-weight:bold">&lt;</span>string<span style="color:#000;font-weight:bold">&gt;</span> Permutation(string str) {
+</span></span><span style="display:flex;"><span>        <span style="color:#998;font-style:italic">// write code here
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>    vector<span style="color:#000;font-weight:bold">&lt;</span>string<span style="color:#000;font-weight:bold">&gt;</span> ans;
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">if</span> (str.size() <span style="color:#000;font-weight:bold">==</span> <span style="color:#099">0</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> ans;
+</span></span><span style="display:flex;"><span>    sort(str.begin(), str.end());
+</span></span><span style="display:flex;"><span>        vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> used(str.size(), <span style="color:#099">0</span>);
+</span></span><span style="display:flex;"><span>        string temp;
+</span></span><span style="display:flex;"><span>        backtrack(str, ans, used, temp);
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> ans;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">backtrack</span>(string <span style="color:#000;font-weight:bold">&amp;</span>str, vector<span style="color:#000;font-weight:bold">&lt;</span>string<span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">&amp;</span>ans, vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">&amp;</span>used, string <span style="color:#000;font-weight:bold">&amp;</span>temp) {
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (temp.size() <span style="color:#000;font-weight:bold">==</span> str.size()) {
+</span></span><span style="display:flex;"><span>            ans.push_back(temp);
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">return</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">int</span> i <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>; i <span style="color:#000;font-weight:bold">&lt;</span> str.size(); <span style="color:#000;font-weight:bold">++</span>i) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (used[i])
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">continue</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (i <span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#099">0</span> <span style="color:#000;font-weight:bold">&amp;&amp;</span> str[i <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>] <span style="color:#000;font-weight:bold">==</span> str[i] <span style="color:#000;font-weight:bold">&amp;&amp;</span> used[i <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>]) {
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">continue</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            used[i] <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>            temp.push_back(str[i]);
+</span></span><span style="display:flex;"><span>            backtrack(str, ans, used, temp);
+</span></span><span style="display:flex;"><span>            used[i] <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>            temp.pop_back();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></td></tr></table>
 </div>

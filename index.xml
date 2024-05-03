@@ -6,7 +6,25 @@
     <description>Recent content on 马花花</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LinuxMultiprocessDevelopment</title>
+      <link>https://Tryanel.github.io/linux-multiprocess-development/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/linux-multiprocess-development/</guid>
+      <description>进程概述 说明 本部分笔记及源码出自slide/02Linux多进程开发/01 进程概述 程序和进程 程序是包含一系列信息的文件，这些信息描述了如何在运行时创建一个进程 二</description>
+    </item>
+    
+    <item>
+      <title>TheLinuxProgramming</title>
+      <link>https://Tryanel.github.io/thelinuxprogramming/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/thelinuxprogramming/</guid>
+      <description>准备工作 系统配置 在虚拟机中安装Linux系统，本项目采用VMware Workstation 16.1.2和Ubuntu 18.04，本机系统为Win 10 更新Ubuntu 18.04源并安装</description>
+    </item>
+    
     <item>
       <title>Algorithm</title>
       <link>https://Tryanel.github.io/algorithm/</link>
