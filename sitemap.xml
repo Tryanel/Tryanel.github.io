@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://Tryanel.github.io/tags/golang/</loc>
+    <lastmod>2024-06-05T12:42:51+00:00</lastmod>
+  </url><url>
+    <loc>https://Tryanel.github.io/go/</loc>
+    <lastmod>2024-06-05T12:42:51+00:00</lastmod>
+  </url><url>
+    <loc>https://Tryanel.github.io/tags/</loc>
+    <lastmod>2024-06-05T18:11:27+00:00</lastmod>
+  </url><url>
+    <loc>https://Tryanel.github.io/</loc>
+    <lastmod>2024-06-05T18:11:27+00:00</lastmod>
+  </url><url>
     <loc>https://Tryanel.github.io/thelinuxprogramming/</loc>
     <lastmod>2024-05-03T22:05:17+00:00</lastmod>
   </url><url>
@@ -11,17 +23,11 @@
     <loc>https://Tryanel.github.io/tags/linux-c&#43;&#43;network-programming/</loc>
     <lastmod>2024-05-03T22:21:47+00:00</lastmod>
   </url><url>
-    <loc>https://Tryanel.github.io/tags/</loc>
-    <lastmod>2024-05-03T22:21:47+00:00</lastmod>
-  </url><url>
-    <loc>https://Tryanel.github.io/</loc>
-    <lastmod>2024-05-03T22:21:47+00:00</lastmod>
-  </url><url>
     <loc>https://Tryanel.github.io/algorithm/</loc>
     <lastmod>2024-04-02T11:28:04+00:00</lastmod>
   </url><url>
     <loc>https://Tryanel.github.io/tags/cs/</loc>
-    <lastmod>2024-04-09T22:20:12+00:00</lastmod>
+    <lastmod>2024-06-05T18:11:27+00:00</lastmod>
   </url><url>
     <loc>https://Tryanel.github.io/redis/</loc>
     <lastmod>2024-04-02T11:21:44+00:00</lastmod>
@@ -39,7 +45,7 @@
     <lastmod>2024-04-09T22:20:12+00:00</lastmod>
   </url><url>
     <loc>https://Tryanel.github.io/note/</loc>
-    <lastmod>2024-04-09T22:19:45+00:00</lastmod>
+    <lastmod>2024-06-05T18:11:27+00:00</lastmod>
   </url><url>
     <loc>https://Tryanel.github.io/tags/linux/</loc>
     <lastmod>2024-01-08T19:44:07+00:00</lastmod>

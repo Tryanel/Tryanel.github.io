@@ -6,7 +6,16 @@
     <description>Recent content on 马花花</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang</title>
+      <link>https://Tryanel.github.io/go/</link>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/go/</guid>
+      <description>DAY 1 第一个Go程序 1 2 3 4 5 6 package main // go程序以包管理 import &amp;#34;fmt&amp;#34; // 类似C++ #include &amp;lt;&amp;gt; func main () { // 主函数，并且花括号不能换行 fmt.Println(&amp;#34;Hello World&amp;#34;) // 调用系统函数输出 } // go程序无需;分隔每句代码</description>
+    </item>
+    
     <item>
       <title>1. TheLinuxProgramming</title>
       <link>https://Tryanel.github.io/thelinuxprogramming/</link>
@@ -85,7 +94,7 @@
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/note/</guid>
-      <description>学习路线 基础学科 1、计算机基础 40集计算机科学基础哔哩哔哩_bilibili 2、操作系统 清华操作系统 《现代操作系统》 南京大学 计算机系统基础(三)完整 主讲：袁春风</description>
+      <description>夯实基础（前期学习） 2024年2月16日 起步第一天，踌躇满志，学习了5集计算机科学基础知识哔哩哔哩_bilibili，以后的计划就是每天5集，争取看完。还有C+</description>
     </item>
     
     <item>
