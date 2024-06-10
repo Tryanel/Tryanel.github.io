@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>default on 马花花</title>
+    <title>default on SantonLee</title>
     <link>https://Tryanel.github.io/tags/default/</link>
-    <description>Recent content in default on 马花花</description>
+    <description>Recent content in default on SantonLee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/default/index.xml" rel="self" type="application/rss+xml" />
@@ -23,6 +23,15 @@
       
       <guid>https://Tryanel.github.io/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
       <description>行内与独行 行内公式：将公式插入到本行内，符号：$公式内容$，如：$xyz$ 独行公式：将公式插入到新的一行内，并且居中，符号：$$公式内容$$，如：$$xyz$$</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://Tryanel.github.io/about/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/about/</guid>
+      <description>:: 🎇 对自己说的话：且将新火试新茶，诗酒趁年华</description>
     </item>
     
     <item>

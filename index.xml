@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>马花花</title>
+    <title>SantonLee</title>
     <link>https://Tryanel.github.io/</link>
-    <description>Recent content on 马花花</description>
+    <description>Recent content on SantonLee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 31 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -40,7 +40,7 @@
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/algorithm/</guid>
-      <description>算法 排序算法 Selection Sort Bucket Sort 桶排序是不基于比较的排序算法，其算法思想是将当前需要比较的数据（必须是数字）的进制抽象出来，十进制数就抽象出10个桶（0~9），然后根据具体</description>
+      <description>算法与数据结构 排序算法 选择排序 ​ 假设要将数组按照升序排序则算法每次循环都选择一个最小值放在当前的位置处，初始位置应为0，每次循环结束都+1到下一位置，重复此过程</description>
     </item>
     
     <item>
@@ -107,15 +107,6 @@
     </item>
     
     <item>
-      <title>LoveLetter03</title>
-      <link>https://Tryanel.github.io/%E7%AC%AC%E4%B8%89%E5%B0%81%E6%83%85%E4%B9%A6/</link>
-      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://Tryanel.github.io/%E7%AC%AC%E4%B8%89%E5%B0%81%E6%83%85%E4%B9%A6/</guid>
-      <description>::愿未来不再坎坷，愿你我永伴 久别的宝宝： 一年将尽、四序云终。 在变幻的生命里，岁月原是最大的小偷。它偷走了时间，悄无声息，也埋藏了一些东西。埋藏在我心里的便是那</description>
-    </item>
-    
-    <item>
       <title>Word常用快捷键</title>
       <link>https://Tryanel.github.io/word%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
@@ -161,15 +152,6 @@
     </item>
     
     <item>
-      <title>金句</title>
-      <link>https://Tryanel.github.io/%E8%AF%AD%E5%BD%95/</link>
-      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Tryanel.github.io/%E8%AF%AD%E5%BD%95/</guid>
-      <description>:: 持续更新 好好在一起 我永远不会和你分手 你永远是我的宝宝 吵架了也不准不见面 我又不像某些人一样小气吧啦的 你也要记得早睡，虽然可能但是你不爱听，但是你是我男朋友你就得</description>
-    </item>
-    
-    <item>
       <title>我的超人</title>
       <link>https://Tryanel.github.io/%E6%88%91%E7%9A%84%E8%B6%85%E4%BA%BA/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
@@ -179,30 +161,12 @@
     </item>
     
     <item>
-      <title>LoveLetter01</title>
-      <link>https://Tryanel.github.io/%E7%AC%AC%E4%B8%80%E5%B0%81%E6%83%85%E4%B9%A6/</link>
-      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Tryanel.github.io/%E7%AC%AC%E4%B8%80%E5%B0%81%E6%83%85%E4%B9%A6/</guid>
-      <description>第一封情书 完成于二零二三年七月四日 正文 展信佳： ​ 别来无恙，一千八百多公里的路程，经一天的等待也算是缩减到了____。在飞机上、轻轨上就早已料到我会兴奋到，无法停</description>
-    </item>
-    
-    <item>
-      <title>LoveLetter02</title>
-      <link>https://Tryanel.github.io/%E7%AC%AC%E4%BA%8C%E5%B0%81%E6%83%85%E4%B9%A6/</link>
-      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Tryanel.github.io/%E7%AC%AC%E4%BA%8C%E5%B0%81%E6%83%85%E4%B9%A6/</guid>
-      <description>第二封情书 完成于二零二三年七月六日 正文 展信佳： 一别一百三十多天，今日之后终于要再次相见。不知道你现在在干嘛呢？我好想你啊。 还记得吗？那个时候你都不敢和我对视哦。</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>https://Tryanel.github.io/about/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/about/</guid>
-      <description>:: 🎇 对自己说的话：铭记 😊我们已经在一起412天啦（截止2024/3/31）一起看了两部电影，一起去了江边，一起拍了好多照片，一起戴上了戒指……虽然也吵了好多好多</description>
+      <description>:: 🎇 对自己说的话：且将新火试新茶，诗酒趁年华</description>
     </item>
     
     <item>
