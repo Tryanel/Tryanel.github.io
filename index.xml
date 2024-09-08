@@ -13,7 +13,7 @@
       <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/go/</guid>
-      <description>DAY 1 第一个Go程序 1 2 3 4 5 6 package main // go程序以包管理 import &amp;#34;fmt&amp;#34; // 类似C++ #include &amp;lt;&amp;gt; func main () { // 主函数，并且花括号不能换行 fmt.Println(&amp;#34;Hello World&amp;#34;) // 调用系统函数输出 } // go程序无需;分隔每句代码</description>
+      <description>语法基础 第一个Go程序 1 2 3 4 5 6 7 package main // go程序以包管理 import &amp;#34;fmt&amp;#34; // 类似C++ #include &amp;lt;&amp;gt; func main() { // 主函数，并且花括号不能换行 fmt.Println(&amp;#34;Hello World&amp;#34;) // 调用系统函数输出 // 无需写return } // g</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/redis/</guid>
-      <description>哨兵集群 Redis 1主4从，5个哨兵，哨兵配置quorum为2，如果3个哨兵故障，当主库宕机时，哨兵能否判断主库“客观下线”？能否自动切换？ 经过实际测试，我的结论如下：</description>
+      <description>基础篇 基本架构 哨兵集群 Redis 1主4从，5个哨兵，哨兵配置quorum为2，如果3个哨兵故障，当主库宕机时，哨兵能否判断主库“客观下线”？能否自动切换？ 经过实际测试，</description>
     </item>
     
     <item>
