@@ -6,7 +6,43 @@
     <description>Recent content in CS on SantonLee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://Tryanel.github.io/java/</link>
+      <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://Tryanel.github.io/go/</link>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/go/</guid>
+      <description>语法基础 第一个Go程序 1 2 3 4 5 6 7 package main // go程序以包管理 import &amp;#34;fmt&amp;#34; // 类似C++ #include &amp;lt;&amp;gt; func main() { // 主函数，并且花括号不能换行 fmt.Println(&amp;#34;Hello World&amp;#34;) // 调用系统函数输出 // 无需写return } // g</description>
+    </item>
+    
+    <item>
+      <title>1. TheLinuxProgramming</title>
+      <link>https://Tryanel.github.io/thelinuxprogramming/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/thelinuxprogramming/</guid>
+      <description>准备工作 系统配置 在虚拟机中安装Linux系统，本项目采用VMware Workstation 16.1.2和Ubuntu 18.04，本机系统为Win 10 更新Ubuntu 18.04源并安装</description>
+    </item>
+    
+    <item>
+      <title>2. LinuxMultiprocessDevelopment</title>
+      <link>https://Tryanel.github.io/linux-multiprocess-development/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/linux-multiprocess-development/</guid>
+      <description>进程概述 说明 本部分笔记及源码出自slide/02Linux多进程开发/01 进程概述 程序和进程 程序是包含一系列信息的文件，这些信息描述了如何在运行时创建一个进程 二</description>
+    </item>
+    
     <item>
       <title>Algorithm</title>
       <link>https://Tryanel.github.io/algorithm/</link>
@@ -68,6 +104,15 @@
       
       <guid>https://Tryanel.github.io/note/</guid>
       <description>夯实基础（前期学习） 2024年2月16日 起步第一天，踌躇满志，学习了5集计算机科学基础知识哔哩哔哩_bilibili，以后的计划就是每天5集，争取看完。还有C+</description>
+    </item>
+    
+    <item>
+      <title>Linux那些事</title>
+      <link>https://Tryanel.github.io/linux%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/linux%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <description>准备 下载安装ubuntu操作系统 想学习Linux首先当然得具有这么一个操作系统了，ubuntu系统比较适合新手对于Linux的学习 如何安装呢？ 直接到官网下载is</description>
     </item>
     
     <item>

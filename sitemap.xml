@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Tryanel.github.io/tags/golang/</loc>
-    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <loc>https://Tryanel.github.io/tags/cs/</loc>
+    <lastmod>2024-09-09T10:56:07+00:00</lastmod>
+  </url><url>
+    <loc>https://Tryanel.github.io/java/</loc>
+    <lastmod>2024-09-09T10:56:07+00:00</lastmod>
+  </url><url>
+    <loc>https://Tryanel.github.io/</loc>
+    <lastmod>2024-09-09T10:56:07+00:00</lastmod>
+  </url><url>
+    <loc>https://Tryanel.github.io/tags/</loc>
+    <lastmod>2024-09-09T10:56:07+00:00</lastmod>
   </url><url>
     <loc>https://Tryanel.github.io/go/</loc>
     <lastmod>2024-05-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Tryanel.github.io/</loc>
-    <lastmod>2024-09-08T17:09:54+00:00</lastmod>
-  </url><url>
-    <loc>https://Tryanel.github.io/tags/</loc>
-    <lastmod>2024-09-08T17:09:54+00:00</lastmod>
   </url><url>
     <loc>https://Tryanel.github.io/thelinuxprogramming/</loc>
     <lastmod>2024-05-03T22:05:17+00:00</lastmod>
@@ -20,14 +23,8 @@
     <loc>https://Tryanel.github.io/linux-multiprocess-development/</loc>
     <lastmod>2024-05-03T22:21:47+00:00</lastmod>
   </url><url>
-    <loc>https://Tryanel.github.io/tags/linux-c&#43;&#43;network-programming/</loc>
-    <lastmod>2024-05-03T22:21:47+00:00</lastmod>
-  </url><url>
     <loc>https://Tryanel.github.io/algorithm/</loc>
     <lastmod>2024-06-07T15:03:53+00:00</lastmod>
-  </url><url>
-    <loc>https://Tryanel.github.io/tags/cs/</loc>
-    <lastmod>2024-09-08T17:09:54+00:00</lastmod>
   </url><url>
     <loc>https://Tryanel.github.io/redis/</loc>
     <lastmod>2024-04-02T11:21:44+00:00</lastmod>
@@ -46,9 +43,6 @@
   </url><url>
     <loc>https://Tryanel.github.io/note/</loc>
     <lastmod>2024-06-10T22:05:42+00:00</lastmod>
-  </url><url>
-    <loc>https://Tryanel.github.io/tags/linux/</loc>
-    <lastmod>2024-01-08T19:44:07+00:00</lastmod>
   </url><url>
     <loc>https://Tryanel.github.io/linux%E9%82%A3%E4%BA%9B%E4%BA%8B/</loc>
     <lastmod>2024-01-08T19:44:07+00:00</lastmod>
