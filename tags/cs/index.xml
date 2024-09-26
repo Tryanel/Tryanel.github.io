@@ -6,7 +6,16 @@
     <description>Recent content in CS on SantonLee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 09 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Tryanel.github.io/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS144</title>
+      <link>https://Tryanel.github.io/cs144/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Tryanel.github.io/cs144/</guid>
+      <description>CS144 lab0 lab0文档 Networking by hand 主要是一些命令行操作 Fetch a Web page 在浏览器中打开http://cs144.keithw.org/hello将会看到Hello, CS144! 在命令行输入te</description>
+    </item>
+    
     <item>
       <title>Java</title>
       <link>https://Tryanel.github.io/java/</link>
@@ -58,7 +67,7 @@
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://Tryanel.github.io/redis/</guid>
-      <description>基础篇 基本架构 哨兵集群 Redis 1主4从，5个哨兵，哨兵配置quorum为2，如果3个哨兵故障，当主库宕机时，哨兵能否判断主库“客观下线”？能否自动切换？ 经过实际测试，</description>
+      <description>基础篇</description>
     </item>
     
     <item>

@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="description" content="CS144 - https://Tryanel.github.io/cs144/">
+    <meta name="author" content="SantonLee - https://Tryanel.github.io/">
+    
+    <meta name="msvalidate.01" content="B46311949B856F2A7015F366FB3CE878" />
+    <title>CS144</title>
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.7.0/style.min.css" />
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css" />
+    
+    <link rel="stylesheet" href="https://Tryanel.github.io/style.min.6bbccf0916939df698171c34d30f896276712c30bd56be0d7fd8023e1b00c3d9.css">
+    
+    <script type="text/javascript" src="/main.js" defer></script>
+    
+</head>
+<body class="active-animate cool">
+        <div class="cool-before" style="background: url('/imgs/bg/1711894044013.jpg') center center/cover no-repeat fixed;"></div>
+        <div id="header" class=""><div class="container-header">
+    
+    
+    <div class="right">
+        
+        <h1 class="title">CS144</h1>
+    
+        
+            
+            <div id="toc">📜</div>
+        
+    </div>
+</div>
+</div>
+        <div id="content">
+
+
+
+
+
+
+
+
+
+
+<div class="container-main container-page ">
+
+    <div class="desc">
+        
+        <span>
+            
+            <svg t="1656736000388" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7409" width="12" height="12"><path d="M524.885333 338.986667L200.362667 663.466667c-17.28 15.274667-27.989333 36.693333-29.696 56.234666v133.76l130.730666 0.085334c22.784-1.621333 43.989333-12.245333 61.013334-31.701334l322.688-322.645333-160.213334-160.213333z m60.373334-60.330667l160.170666 160.213333 102.144-102.144a19.712 19.712 0 0 0 0-27.861333L715.093333 176.426667a19.456 19.456 0 0 0-27.605333 0L585.258667 278.613333zM701.312 85.333333c27.946667 0 54.741333 11.136 74.282667 30.848l132.309333 132.309334a105.045333 105.045333 0 0 1 0 148.565333L424.874667 879.957333c-29.824 34.346667-72.106667 55.466667-120.448 58.794667H85.333333v-42.666667l0.128-179.84c3.626667-44.970667 24.576-86.826667 56.448-114.944l485.12-485.034666A104.789333 104.789333 0 0 1 701.269333 85.333333z" p-id="7410" fill="#adb5bd"></path></svg>
+            2024-09-26&nbsp;&nbsp;&nbsp;
+            <svg t="1656737270708" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="23838" width="11" height="11"><path d="M824.264 95.36c0-23.859 25.043-44.16 48.902-44.16s49.714 20.301 49.714 44.16v190.08c0 23.859-19.054 52.868-42.913 52.868h-190.08c-23.859 0-46.696-25.96-46.696-49.819s22.55-46.249 46.409-46.249h82.025C702.344 175.534 610.22 155.853 512 155.853c-206.775 0-360.398 149.372-360.398 356.147 0 206.775 153.623 358.23 360.398 358.23 206.775 0 357.467-151.455 357.467-358.23 0-23.859 23.634-50.706 53.413-50.706 29.78 0 49.92 26.847 49.92 50.706 0 254.493-206.307 460.8-460.8 460.8-254.493 0-460.8-206.307-460.8-460.8C51.2 257.507 257.507 51.2 512 51.2c122.4 0 226.684 33.296 312.264 117.369 0.358 0.351 0.358-24.052 0-73.209z" p-id="23839" fill="#adb5bd"></path></svg>
+            2024-09-26&nbsp;&nbsp;&nbsp;
+        </span>
+        <span>
+            
+            <svg t="1656737548689" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="33866" width="12" height="12"><path d="M832.038608 64.662657H192.030028C121.255125 64.662657 63.940169 121.98845 63.940169 192.694717v446.793671C63.940169 710.205493 121.255125 767.643272 192.030028 767.643272h133.353183a63.940169 63.940169 0 0 1 55.219742 31.576328l76.099638 129.83828c12.358154 21.093031 33.790754 31.626903 55.216129 31.626903s42.832688-10.544709 55.198067-31.619678l76.222461-129.870792a63.940169 63.940169 0 0 1 55.212517-31.551041h133.54103c70.576219 0 127.732228-57.289669 127.732227-127.800865V192.391272C959.825022 121.85479 902.643727 64.662657 832.038608 64.662657zM895.884854 639.842407A63.85347 63.85347 0 0 1 832.092795 703.703103h-133.54103a127.753903 127.753903 0 0 0-110.349172 63.09847l-76.222461 129.856342a0.274545 0.274545 0 0 1 0-0.050574h-0.032512s-0.021675 0.061411-0.032512 0.061412l-76.1466-129.85273A127.804477 127.804477 0 0 0 325.383211 703.703103H192.030028A64.207489 64.207489 0 0 1 127.880338 639.488388V192.694717A64.102729 64.102729 0 0 1 192.030028 128.602826h640.00858A63.799284 63.799284 0 0 1 895.884854 192.391272v447.451135z" fill="#adb5bd" p-id="33867"></path><path d="M608.154093 288.092004A31.970084 31.970084 0 0 0 576.184009 320.062089v160.078006l-134.650049-179.278119A31.970084 31.970084 0 0 0 384.002258 320.062089v255.760676a31.970084 31.970084 0 0 0 63.940169 0v-159.958796l134.650048 179.274507a31.970084 31.970084 0 0 0 57.531703-19.200113V320.062089a31.970084 31.970084 0 0 0-31.970085-31.970085z" fill="#adb5bd" p-id="33868"></path></svg>
+            6813 字</span>&nbsp;
+        <span>
+            
+            <svg t="1656737462334" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32892" width="12" height="12"><path d="M512 74.666667C270.933333 74.666667 74.666667 270.933333 74.666667 512S270.933333 949.333333 512 949.333333 949.333333 753.066667 949.333333 512 753.066667 74.666667 512 74.666667z m0 810.666666c-204.8 0-373.333333-168.533333-373.333333-373.333333S307.2 138.666667 512 138.666667 885.333333 307.2 885.333333 512 716.8 885.333333 512 885.333333z" p-id="32893" fill="#adb5bd"></path><path d="M695.466667 567.466667l-151.466667-70.4V277.333333c0-17.066667-14.933333-32-32-32s-32 14.933333-32 32v238.933334c0 12.8 6.4 23.466667 19.2 29.866666l170.666667 81.066667c4.266667 2.133333 8.533333 2.133333 12.8 2.133333 12.8 0 23.466667-6.4 29.866666-19.2 6.4-14.933333 0-34.133333-17.066666-42.666666z" p-id="32894" fill="#adb5bd"></path></svg>
+            14 分钟</span>
+            <div class="container-ctgtag">
+	<div class="taxonomy">
+		<div class="tag">
+			
+			
+			<a href="/tags/cs">cs</a>
+			
+		</div>
+	</div>
+</div>
+        
+    </div>
+    
+    <div class="toc">
+        <div class="container-page-operation">
+	<div class="page-operation">
+		<div><a href="/"><img src="/imgs/icons/home-2.svg" alt=""></a></div>
+		<div><a href="/nav"><img src="/imgs/icons/iov-navigate-1.svg" alt=""></a></div>
+		<div><a href="/tags"><img src="/imgs/icons/treetags.svg" alt=""></a></div>
+		<div id="light-dark"><a><img src="/imgs/icons/moon2.svg" alt=""></a></div>
+		<div><a href="#"><img src="/imgs/icons/up2.svg" alt=""></a></div>
+	</div>
+</div>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#lab0">lab0</a>
+      <ul>
+        <li><a href="#networking-by-hand">Networking by hand</a></li>
+        <li><a href="#writing-a-network-program-using-an-os-stream-socket">Writing a network program using an OS stream socket</a></li>
+      </ul>
+    </li>
+    <li><a href="#lab1">lab1</a>
+      <ul>
+        <li><a href="#getting-started">Getting started</a></li>
+        <li><a href="#putting-substrings-in-sequence">Putting substrings in sequence</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+
+    <div class='content  '>
+        <h1 id="cs144">CS144</h1>
+<h2 id="lab0">lab0</h2>
+<p><a href="https://tryanel.github.io/Documents/check0.pdf">lab0文档</a></p>
+<h3 id="networking-by-hand">Networking by hand</h3>
+<p>主要是一些命令行操作</p>
+<h4 id="fetch-a-web-page">Fetch a Web page</h4>
+<ol>
+<li>
+<p>在浏览器中打开<code>http://cs144.keithw.org/hello</code>将会看到<code>Hello, CS144!</code></p>
+</li>
+<li>
+<p>在命令行输入<code>telnet cs144.keithw.org http</code>将会看到</p>
+<img src="./imgs/image-20240603212753989.png" alt="image-20240603212753989" style="zoom:80%;" />
+<p>此时服务器正在等待我们的请求，可以输入这段代码，具体含义了解HTTP协议就知道，输入完了记得按两下回车（HTTP的包格式，还记得刚开始我只按了一次回车，结果就是超时没有反应，其实是格式不完整，服务器也不会做出响应，所以就超时了，因此一定要有两个回车换行）。</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#008080">$telnet</span> cs144.keithw.org http
+</span></span><span style="display:flex;"><span>Trying 104.196.238.229...
+</span></span><span style="display:flex;"><span>Connected to cs144.keithw.org.
+</span></span><span style="display:flex;"><span>Escape character is <span style="color:#d14">&#39;^]&#39;</span>.
+</span></span><span style="display:flex;"><span>GET /hello HTTP/1.1
+</span></span><span style="display:flex;"><span>Host: cs144.keithw.org
+</span></span><span style="display:flex;"><span>Connection: close
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>HTTP/1.1 <span style="color:#099">200</span> OK
+</span></span><span style="display:flex;"><span>Date: Tue, <span style="color:#099">04</span> Jun <span style="color:#099">2024</span> 12:31:28 GMT
+</span></span><span style="display:flex;"><span>Server: Apache
+</span></span><span style="display:flex;"><span>Last-Modified: Thu, <span style="color:#099">13</span> Dec <span style="color:#099">2018</span> 15:45:29 GMT
+</span></span><span style="display:flex;"><span>ETag: <span style="color:#d14">&#34;e-57ce93446cb64&#34;</span>
+</span></span><span style="display:flex;"><span>Accept-Ranges: bytes
+</span></span><span style="display:flex;"><span>Content-Length: <span style="color:#099">14</span>
+</span></span><span style="display:flex;"><span>Connection: close
+</span></span><span style="display:flex;"><span>Content-Type: text/plain
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Hello, CS144!
+</span></span><span style="display:flex;"><span>Connection closed by foreign host.
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>根据要求发送 SUNet ID 来获取 secret code。因为并没有真实的 ID，所以这里用随机的数字替代。</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#008080">$telnet</span> cs144.keithw.org http
+</span></span><span style="display:flex;"><span>Trying 104.196.238.229...
+</span></span><span style="display:flex;"><span>Connected to cs144.keithw.org.
+</span></span><span style="display:flex;"><span>Escape character is <span style="color:#d14">&#39;^]&#39;</span>.
+</span></span><span style="display:flex;"><span>GET /lab0/1234 HTTP/1.1
+</span></span><span style="display:flex;"><span>Host: cs144.keithw.org
+</span></span><span style="display:flex;"><span>Connetction: close
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>HTTP/1.1 <span style="color:#099">200</span> OK
+</span></span><span style="display:flex;"><span>Date: Tue, <span style="color:#099">04</span> Jun <span style="color:#099">2024</span> 12:37:10 GMT
+</span></span><span style="display:flex;"><span>Server: Apache
+</span></span><span style="display:flex;"><span>X-You-Said-Your-SunetID-Was: <span style="color:#099">1234</span>
+</span></span><span style="display:flex;"><span>X-Your-Code-Is: <span style="color:#099">997233</span>
+</span></span><span style="display:flex;"><span>Content-length: <span style="color:#099">108</span>
+</span></span><span style="display:flex;"><span>Vary: Accept-Encoding
+</span></span><span style="display:flex;"><span>Content-Type: text/plain
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Hello! You told us that your SUNet ID was <span style="color:#d14">&#34;1234&#34;</span>. Please see the HTTP headers <span style="color:#000;font-weight:bold">(</span>above<span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">for</span> your secret code.
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h4 id="send-yourself-an-email">Send yourself an email</h4>
+<p>这里需要真实的SUNet ID，所以不做了。</p>
+<h4 id="listening-and-connecting">Listening and connecting</h4>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># terminal 1</span>
+</span></span><span style="display:flex;"><span><span style="color:#008080">$netcat</span> -v -l -p <span style="color:#099">9090</span>
+</span></span><span style="display:flex;"><span>Listening on 0.0.0.0 <span style="color:#099">9090</span>
+</span></span><span style="display:flex;"><span>Connection received on localhost <span style="color:#099">49336</span>
+</span></span><span style="display:flex;"><span>hello
+</span></span><span style="display:flex;"><span>你好
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># terminal 2</span>
+</span></span><span style="display:flex;"><span><span style="color:#008080">$telnet</span> localhost <span style="color:#099">9090</span>
+</span></span><span style="display:flex;"><span>Trying 127.0.0.1...
+</span></span><span style="display:flex;"><span>Connected to localhost.
+</span></span><span style="display:flex;"><span>Escape character is <span style="color:#d14">&#39;^]&#39;</span>.
+</span></span><span style="display:flex;"><span>hello
+</span></span><span style="display:flex;"><span>你好
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="writing-a-network-program-using-an-os-stream-socket">Writing a network program using an OS stream socket</h3>
+<p>先把minnow仓库克隆到本地：<code>git clone https://github.com/cs144/minnow</code></p>
+<h4 id="writing-webget">Writing webget</h4>
+<p>文档重要信息：</p>
+<p>It’s time to implement <strong>webget</strong>, a program to fetch Web pages over the Internet using the operating system’s TCP support and stream-socket abstraction——just like you did by hand earlier in this lab.</p>
+<ol>
+<li>From the build directory, open the file <code>../apps/webget.cc</code> in a text editor or IDE.</li>
+<li>In the <code>get_URL</code> function, find the comment starting <code>// Your code here.</code></li>
+<li>Implement the simple Web client as described in this file, using the format of an HTTP (Web) request that you used earlier. Use the <code>TCPSocket</code> and <code>Address</code> classes.</li>
+<li>Hints:</li>
+</ol>
+<ul>
+<li>Please note that in HTTP, each line must be ended with <code>\r\n</code> (it’s not sufficient to use just <code>\n</code> or <code>endl</code>).</li>
+<li>Don’t forget to include the <code>Connection: close</code> line in your client’s request. This tells the server that it shouldn’t wait around for your client to send any more requests after this one. Instead, the server will send one reply and then will immediately end its outgoing bytestream (the one from the server’s socket to your socket). You’ll discover that your incoming byte stream has ended because your socket will reach “EOF” (end of file) when you have read the entire byte stream coming from the server. That’s how your client will know that the server has finished its reply.</li>
+<li>Make sure to read and print all the output from the server until the socket reaches “EOF” (end of file)—<strong>a single call to read is not enough</strong>.</li>
+<li>We expect you’ll need to write about ten lines of code.</li>
+</ul>
+<p>读完了之后就可以去实现<code>webget.cc</code>文件的<code>get_URL</code>函数：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">get_URL</span>( <span style="color:#000;font-weight:bold">const</span> string<span style="color:#000;font-weight:bold">&amp;</span> host, <span style="color:#000;font-weight:bold">const</span> string<span style="color:#000;font-weight:bold">&amp;</span> path )
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// cerr &lt;&lt; &#34;Function called: get_URL(&#34; &lt;&lt; host &lt;&lt; &#34;, &#34; &lt;&lt; path &lt;&lt; &#34;)\n&#34;;
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#998;font-style:italic">// cerr &lt;&lt; &#34;Warning: get_URL() has not been implemented yet.\n&#34;;
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">auto</span> sc <span style="color:#000;font-weight:bold">=</span> TCPSocket();	<span style="color:#998;font-style:italic">// 创建套接字
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">auto</span> addr <span style="color:#000;font-weight:bold">=</span> Address(host, <span style="color:#d14">&#34;http&#34;</span>);	<span style="color:#998;font-style:italic">// 连接服务器的地址
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>
+</span></span><span style="display:flex;"><span>  sc.connect(addr);	<span style="color:#998;font-style:italic">// 连接服务器
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// 发送HTTP请求
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  sc.write(<span style="color:#d14">&#34;GET &#34;</span>);
+</span></span><span style="display:flex;"><span>  sc.write(path);
+</span></span><span style="display:flex;"><span>  sc.write(<span style="color:#d14">&#34; HTTP/1.1</span><span style="color:#d14">\r\n</span><span style="color:#d14">&#34;</span>);
+</span></span><span style="display:flex;"><span>  sc.write(<span style="color:#d14">&#34;Host: &#34;</span>);
+</span></span><span style="display:flex;"><span>  sc.write(host);
+</span></span><span style="display:flex;"><span>  sc.write(<span style="color:#d14">&#34;</span><span style="color:#d14">\r\n</span><span style="color:#d14">&#34;</span>);
+</span></span><span style="display:flex;"><span>  sc.write(<span style="color:#d14">&#34;Connection: close</span><span style="color:#d14">\r\n\r\n</span><span style="color:#d14">&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// 半关闭
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  sc.shutdown(SHUT_WR);
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">while</span> (<span style="color:#000;font-weight:bold">!</span>sc.eof()) {
+</span></span><span style="display:flex;"><span>    string buf;
+</span></span><span style="display:flex;"><span>    sc.read(buf);
+</span></span><span style="display:flex;"><span>    cout <span style="color:#000;font-weight:bold">&lt;&lt;</span> buf;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  sc.close();
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>实现完成使用<code>cmake --build build</code>编译生成可执行文件在build目录下，进入build目录执行<code>./apps/webget cs144.keithw.org /hello</code>命令后可以看到服务器返回的信息：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>HTTP/1.1 <span style="color:#099">200</span> OK
+</span></span><span style="display:flex;"><span>Date: Fri, <span style="color:#099">06</span> Sep <span style="color:#099">2024</span> 09:02:09 GMT
+</span></span><span style="display:flex;"><span>Server: Apache
+</span></span><span style="display:flex;"><span>Last-Modified: Thu, <span style="color:#099">13</span> Dec <span style="color:#099">2018</span> 15:45:29 GMT
+</span></span><span style="display:flex;"><span>ETag: <span style="color:#d14">&#34;e-57ce93446cb64&#34;</span>
+</span></span><span style="display:flex;"><span>Accept-Ranges: bytes
+</span></span><span style="display:flex;"><span>Content-Length: <span style="color:#099">14</span>
+</span></span><span style="display:flex;"><span>Connection: close
+</span></span><span style="display:flex;"><span>Content-Type: text/plain
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Hello, CS144!
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>可以看到结果与之前的一致</p>
+<p>完成这些后执行<code>make check_webget</code>进行测试：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Cat@Cat:~/exing/CS144/minnow/build<span style="color:#008080">$make</span> check_webget
+</span></span><span style="display:flex;"><span>Test project /home/cat/exing/CS144/minnow/build
+</span></span><span style="display:flex;"><span>    Start 1: compile with bug-checkers
+</span></span><span style="display:flex;"><span>1/2 Test <span style="color:#998;font-style:italic">#1: compile with bug-checkers ........   Passed    3.15 sec</span>
+</span></span><span style="display:flex;"><span>    Start 2: t_webget
+</span></span><span style="display:flex;"><span>2/2 Test <span style="color:#998;font-style:italic">#2: t_webget .........................   Passed    1.52 sec</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>100% tests passed, <span style="color:#099">0</span> tests failed out of <span style="color:#099">2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Total Test <span style="color:#0086b3">time</span> <span style="color:#000;font-weight:bold">(</span>real<span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=</span>   4.67 sec
+</span></span><span style="display:flex;"><span>Built target check_webget
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>至此可以进入下一阶段</p>
+<h4 id="an-in-memory-reliable-byte-stream">An in-memory reliable byte stream</h4>
+<blockquote>
+<p>By now, you’ve seen how the abstraction of a reliable byte stream can be useful in communicating across the Internet, even though the Internet itself only provides the service of &ldquo;best-effort&rdquo; (unreliable) datagrams.</p>
+<p>To finish off this week’s lab, you will implement, in memory on a single computer, an object that provides this abstraction. (You may have done something similar in CS 110.) Bytes are written on the “input” side and can be read, in the same sequence, from the “output” side. The byte stream is finite: the writer can end the input, and then no more bytes can be written. When the reader has read to the end of the stream, it will reach “EOF” (end of file) and no more bytes can be read.</p>
+<p>Your byte stream will also be flow-controlled to limit its memory consumption at any given time. The object is initialized with a particular “capacity”: the maximum number of bytes it’s willing to store in its own memory at any given point. The byte stream will limit the writer in how much it can write at any given moment, to make sure that the stream doesn’t exceed its storage capacity. As the reader reads bytes and drains them from the stream, the writer is allowed to write more. Your byte stream is for use in a single thread—you don’t have to worry about concurrent writers/readers, locking, or race conditions.</p>
+<p>To be clear: the byte stream is finite, but it can be almost arbitrarily long before the writer ends the input and finishes the stream. Your implementation must be able to handle streams that are much longer than the capacity. The capacity limits the number of bytes that are held in memory (written but not yet read) at a given point, but does not limit the length of the stream. An object with a capacity of only one byte could still carry a stream that is terabytes and terabytes long, as long as the writer keeps writing one byte at a time and the reader reads each byte before the writer is allowed to write the next byte.</p>
+</blockquote>
+<p>注意上面提到一个概念“EOF”，意思是字节流中writer端首先关闭了，其次reader端将所有的字节全部读取完了，此时字节流达到了EOF。</p>
+<p>现在要求我们实现以下函数：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#998;font-style:italic">// Here’s what the interface looks like for the writer:
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">push</span>( std<span style="color:#000;font-weight:bold">::</span>string data ); <span style="color:#998;font-style:italic">// Push data to stream, but only as much as available capacity allows.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">close</span>(); <span style="color:#998;font-style:italic">// Signal that the stream has reached its ending. Nothing more will be written.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">bool</span> <span style="color:#900;font-weight:bold">is_closed</span>() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// Has the stream been closed?
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">uint64_t</span> <span style="color:#900;font-weight:bold">available_capacity</span>() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// How many bytes can be pushed to the stream right now?
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">uint64_t</span> <span style="color:#900;font-weight:bold">bytes_pushed</span>() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// Total number of bytes cumulatively pushed to the stream
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">// And here is the interface for the reader:
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>std<span style="color:#000;font-weight:bold">::</span>string_view peek() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// Peek at the next bytes in the buffer
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">pop</span>( <span style="color:#458;font-weight:bold">uint64_t</span> len ); <span style="color:#998;font-style:italic">// Remove `len` bytes from the buffer
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">bool</span> <span style="color:#900;font-weight:bold">is_finished</span>() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// Is the stream finished (closed and fully popped)?
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">bool</span> <span style="color:#900;font-weight:bold">has_error</span>() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// Has the stream had an error?
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">uint64_t</span> <span style="color:#900;font-weight:bold">bytes_buffered</span>() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// Number of bytes currently buffered (pushed and not popped)
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">uint64_t</span> <span style="color:#900;font-weight:bold">bytes_popped</span>() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// Total number of bytes cumulatively popped from stream
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span><span style="color:#998;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">	可以根据这几个需求构思如何实现，特别是如何实现字节流，这里决定使用非常巧妙的环状字节流实现
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">	空间的循环利用，其实就是利用模运算，现在很多缓存大小也是这样计算。其余只需要根据注释提示在设置一个buf
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">	一个total number统计写的总数，一个total number统计读的总数，还有一个bool变量标记buffer是否关闭
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">*/</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>根据注释的描述以及文档的讲述补充<code>byte_stream.hh</code>文件：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#pragma once
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&lt;cstdint&gt;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&lt;string&gt;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&lt;string_view&gt;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&lt;vector&gt;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">class</span> <span style="color:#458;font-weight:bold">Reader</span>;
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">class</span> <span style="color:#458;font-weight:bold">Writer</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">class</span> <span style="color:#458;font-weight:bold">ByteStream</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">public</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">explicit</span> ByteStream( <span style="color:#458;font-weight:bold">uint64_t</span> capacity );
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Helper functions (provided) to access the ByteStream&#39;s Reader and Writer interfaces
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  Reader<span style="color:#000;font-weight:bold">&amp;</span> reader();
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">const</span> Reader<span style="color:#000;font-weight:bold">&amp;</span> reader() <span style="color:#000;font-weight:bold">const</span>;
+</span></span><span style="display:flex;"><span>  Writer<span style="color:#000;font-weight:bold">&amp;</span> writer();
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">const</span> Writer<span style="color:#000;font-weight:bold">&amp;</span> writer() <span style="color:#000;font-weight:bold">const</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">set_error</span>() { error_ <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">true</span>; };       <span style="color:#998;font-style:italic">// Signal that the stream suffered an error.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">bool</span> <span style="color:#900;font-weight:bold">has_error</span>() <span style="color:#000;font-weight:bold">const</span> { <span style="color:#000;font-weight:bold">return</span> error_; }; <span style="color:#998;font-style:italic">// Has the stream had an error?
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">protected</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Please add any additional state to the ByteStream here, and not to the Writer and Reader interfaces.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">uint64_t</span> capacity_;
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">bool</span> error_ {};
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// 下面四行为补充
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  std<span style="color:#000;font-weight:bold">::</span>vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">char</span><span style="color:#000;font-weight:bold">&gt;</span> buf_;
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">uint64_t</span> nread_;
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">uint64_t</span> nwrite_;
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">bool</span> is_closed_;
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">class</span> <span style="color:#458;font-weight:bold">Writer</span> <span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">public</span> ByteStream
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">public</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">void</span> push( std<span style="color:#000;font-weight:bold">::</span>string data ); <span style="color:#998;font-style:italic">// Push data to stream, but only as much as available capacity allows.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">close</span>();                  <span style="color:#998;font-style:italic">// Signal that the stream has reached its ending. Nothing more will be written.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">bool</span> <span style="color:#900;font-weight:bold">is_closed</span>() <span style="color:#000;font-weight:bold">const</span>;              <span style="color:#998;font-style:italic">// Has the stream been closed?
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">uint64_t</span> <span style="color:#900;font-weight:bold">available_capacity</span>() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// How many bytes can be pushed to the stream right now?
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">uint64_t</span> <span style="color:#900;font-weight:bold">bytes_pushed</span>() <span style="color:#000;font-weight:bold">const</span>;       <span style="color:#998;font-style:italic">// Total number of bytes cumulatively pushed to the stream
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">class</span> <span style="color:#458;font-weight:bold">Reader</span> <span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">public</span> ByteStream
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">public</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>  std<span style="color:#000;font-weight:bold">::</span>string_view peek() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// Peek at the next bytes in the buffer
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">pop</span>( <span style="color:#458;font-weight:bold">uint64_t</span> len );      <span style="color:#998;font-style:italic">// Remove `len` bytes from the buffer
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">bool</span> <span style="color:#900;font-weight:bold">is_finished</span>() <span style="color:#000;font-weight:bold">const</span>;        <span style="color:#998;font-style:italic">// Is the stream finished (closed and fully popped)?
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">uint64_t</span> <span style="color:#900;font-weight:bold">bytes_buffered</span>() <span style="color:#000;font-weight:bold">const</span>; <span style="color:#998;font-style:italic">// Number of bytes currently buffered (pushed and not popped)
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">uint64_t</span> <span style="color:#900;font-weight:bold">bytes_popped</span>() <span style="color:#000;font-weight:bold">const</span>;   <span style="color:#998;font-style:italic">// Total number of bytes cumulatively popped from stream
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"> * read: A (provided) helper function thats peeks and pops up to `len` bytes
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"> * from a ByteStream Reader into a string;
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">read</span>( Reader<span style="color:#000;font-weight:bold">&amp;</span> reader, <span style="color:#458;font-weight:bold">uint64_t</span> len, std<span style="color:#000;font-weight:bold">::</span>string<span style="color:#000;font-weight:bold">&amp;</span> out );
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>补充后实现<code>byte_stream.cc</code>文件：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">65
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">66
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">67
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">68
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">69
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">70
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">71
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">72
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">73
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">74
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">75
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">76
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">77
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">78
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">79
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">80
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">81
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">82
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">83
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">84
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">85
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">86
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">87
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">88
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">89
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&#34;byte_stream.hh&#34;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">using</span> <span style="color:#000;font-weight:bold">namespace</span> std;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ByteStream<span style="color:#000;font-weight:bold">::</span>ByteStream( <span style="color:#458;font-weight:bold">uint64_t</span> capacity ) <span style="color:#000;font-weight:bold">:</span> capacity_( capacity ),buf_(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">char</span><span style="color:#000;font-weight:bold">&gt;</span>(capacity_)) ,nread_(<span style="color:#099">0</span>), nwrite_(<span style="color:#099">0</span>), is_closed_(<span style="color:#0086b3">false</span>){}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">bool</span> Writer<span style="color:#000;font-weight:bold">::</span>is_closed() <span style="color:#000;font-weight:bold">const</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Your code here.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">return</span> is_closed_;
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// return false;
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">void</span> Writer<span style="color:#000;font-weight:bold">::</span>push( string data )
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">for</span> (<span style="color:#000;font-weight:bold">const</span> <span style="color:#000;font-weight:bold">auto</span> <span style="color:#000;font-weight:bold">&amp;</span><span style="color:#900;font-weight:bold">item</span> : data) {
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">if</span> (nwrite_ <span style="color:#000;font-weight:bold">&gt;=</span> nread_ <span style="color:#000;font-weight:bold">+</span> capacity_) {
+</span></span><span style="display:flex;"><span>      <span style="color:#000;font-weight:bold">return</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    buf_[nwrite_ <span style="color:#000;font-weight:bold">%</span> capacity_] <span style="color:#000;font-weight:bold">=</span> item;	<span style="color:#998;font-style:italic">// 很优雅的字节流，实现了可循环利用空间
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>    <span style="color:#000;font-weight:bold">++</span>nwrite_;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">void</span> Writer<span style="color:#000;font-weight:bold">::</span>close()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Your code here.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  is_closed_ <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">true</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">uint64_t</span> Writer<span style="color:#000;font-weight:bold">::</span>available_capacity() <span style="color:#000;font-weight:bold">const</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Your code here.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">return</span> capacity_ <span style="color:#000;font-weight:bold">-</span> (nwrite_ <span style="color:#000;font-weight:bold">-</span> nread_);
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// return {};
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">uint64_t</span> Writer<span style="color:#000;font-weight:bold">::</span>bytes_pushed() <span style="color:#000;font-weight:bold">const</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Your code here.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">return</span> nwrite_;
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// return {};
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">bool</span> Reader<span style="color:#000;font-weight:bold">::</span>is_finished() <span style="color:#000;font-weight:bold">const</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Your code here.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#998;font-style:italic">// return nread_ == capacity_;
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#998;font-style:italic">// return {};
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">return</span> is_closed_ <span style="color:#000;font-weight:bold">&amp;&amp;</span> nread_ <span style="color:#000;font-weight:bold">==</span> nwrite_;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">uint64_t</span> Reader<span style="color:#000;font-weight:bold">::</span>bytes_popped() <span style="color:#000;font-weight:bold">const</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Your code here.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">return</span> nread_;
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// return nread_;
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#998;font-style:italic">// return {};
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>string_view Reader<span style="color:#000;font-weight:bold">::</span>peek() <span style="color:#000;font-weight:bold">const</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Your code here.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">if</span> (nread_ <span style="color:#000;font-weight:bold">==</span> nwrite_) <span style="color:#000;font-weight:bold">return</span> {};
+</span></span><span style="display:flex;"><span>  string_view <span style="color:#900;font-weight:bold">sv</span>(<span style="color:#000;font-weight:bold">&amp;</span>buf_[nread_ <span style="color:#000;font-weight:bold">%</span> capacity_], <span style="color:#099">1</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">return</span> sv;
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// return {};
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">void</span> Reader<span style="color:#000;font-weight:bold">::</span>pop( <span style="color:#458;font-weight:bold">uint64_t</span> len )
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// (void)len;
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#998;font-style:italic">// Your code here.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">uint64_t</span> i <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>; i <span style="color:#000;font-weight:bold">&lt;</span> len; <span style="color:#000;font-weight:bold">++</span>i) {
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">if</span> (nread_ <span style="color:#000;font-weight:bold">&lt;</span> nwrite_) {
+</span></span><span style="display:flex;"><span>      <span style="color:#000;font-weight:bold">++</span>nread_;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#000;font-weight:bold">return</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">uint64_t</span> Reader<span style="color:#000;font-weight:bold">::</span>bytes_buffered() <span style="color:#000;font-weight:bold">const</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Your code here.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">return</span> nwrite_ <span style="color:#000;font-weight:bold">-</span> nread_;
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// return {};
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在build目录下make：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">[</span> 42%<span style="color:#000;font-weight:bold">]</span> Built target util_debug
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">[</span> 57%<span style="color:#000;font-weight:bold">]</span> Built target minnow_debug
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">[</span> 68%<span style="color:#000;font-weight:bold">]</span> Built target minnow_testing_debug
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">[</span> 78%<span style="color:#000;font-weight:bold">]</span> Built target stream_copy
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">[</span> 89%<span style="color:#000;font-weight:bold">]</span> Built target webget
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">[</span>100%<span style="color:#000;font-weight:bold">]</span> Built target tcp_native
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后make check0</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make check0
+</span></span><span style="display:flex;"><span>Test project /home/cat/proj/cs144/lab0/minnow/build
+</span></span><span style="display:flex;"><span>      Start  1: compile with bug-checkers
+</span></span><span style="display:flex;"><span> 1/10 Test  <span style="color:#998;font-style:italic">#1: compile with bug-checkers ........   Passed    0.08 sec</span>
+</span></span><span style="display:flex;"><span>      Start  2: t_webget
+</span></span><span style="display:flex;"><span> 2/10 Test  <span style="color:#998;font-style:italic">#2: t_webget .........................   Passed    1.19 sec</span>
+</span></span><span style="display:flex;"><span>      Start  3: byte_stream_basics
+</span></span><span style="display:flex;"><span> 3/10 Test  <span style="color:#998;font-style:italic">#3: byte_stream_basics ...............   Passed    0.02 sec</span>
+</span></span><span style="display:flex;"><span>      Start  4: byte_stream_capacity
+</span></span><span style="display:flex;"><span> 4/10 Test  <span style="color:#998;font-style:italic">#4: byte_stream_capacity .............   Passed    0.01 sec</span>
+</span></span><span style="display:flex;"><span>      Start  5: byte_stream_one_write
+</span></span><span style="display:flex;"><span> 5/10 Test  <span style="color:#998;font-style:italic">#5: byte_stream_one_write ............   Passed    0.02 sec</span>
+</span></span><span style="display:flex;"><span>      Start  6: byte_stream_two_writes
+</span></span><span style="display:flex;"><span> 6/10 Test  <span style="color:#998;font-style:italic">#6: byte_stream_two_writes ...........   Passed    0.01 sec</span>
+</span></span><span style="display:flex;"><span>      Start  7: byte_stream_many_writes
+</span></span><span style="display:flex;"><span> 7/10 Test  <span style="color:#998;font-style:italic">#7: byte_stream_many_writes ..........   Passed    0.04 sec</span>
+</span></span><span style="display:flex;"><span>      Start  8: byte_stream_stress_test
+</span></span><span style="display:flex;"><span> 8/10 Test  <span style="color:#998;font-style:italic">#8: byte_stream_stress_test ..........   Passed    0.24 sec</span>
+</span></span><span style="display:flex;"><span>      Start 37: compile with optimization
+</span></span><span style="display:flex;"><span> 9/10 Test <span style="color:#998;font-style:italic">#37: compile with optimization ........   Passed    0.04 sec</span>
+</span></span><span style="display:flex;"><span>      Start 38: byte_stream_speed_test
+</span></span><span style="display:flex;"><span>             ByteStream throughput: 0.61 Gbit/s
+</span></span><span style="display:flex;"><span>10/10 Test <span style="color:#998;font-style:italic">#38: byte_stream_speed_test ...........   Passed    0.19 sec</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>100% tests passed, <span style="color:#099">0</span> tests failed out of <span style="color:#099">10</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Total Test <span style="color:#0086b3">time</span> <span style="color:#000;font-weight:bold">(</span>real<span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=</span>   1.86 sec
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>根据文档描述</p>
+<blockquote>
+<p>If all tests pass, the check0 test will then run a speed benchmark of your implementation. ==Anything faster than 0.1 Gbit/s== (in other words, 100 million bits per second) is acceptable for purposes of this class. (It is possible for an implementation to perform faster than 10 Gbit/s, but this depends on the speed of your computer and is not required.)</p>
+</blockquote>
+<p>到此lab0所有任务完成，最后记得git管理一下项目代码</p>
+<h2 id="lab1">lab1</h2>
+<p><a href="https://tryanel.github.io/Documents/check1.pdf">lab1文档</a></p>
+<h3 id="getting-started">Getting started</h3>
+<p>首先合并lab1和lab0的代码：在与“minnow”同级目录下执行<code>git merge origin/check1-startercode</code>然后初始化一下build系统<code>cmake -S . -B build</code>，最后再build一下：<code>cmake --build build</code></p>
+<h3 id="putting-substrings-in-sequence">Putting substrings in sequence</h3>
+<blockquote>
+<p>As part of the lab assignment, you will implement a TCP receiver: the module that receives datagrams and turns them into a reliable byte stream to be read from the socket by the application—just as your webget program read the byte stream from the webserver in Checkpoint 0.</p>
+<p>The TCP sender is dividing its byte stream up into short segments (substrings no more than about 1,460 bytes apiece) so that they each fit inside a datagram. But the network might reorder these datagrams, or drop them, or deliver them more than once. The receiver must reassemble the segments into the contiguous stream of bytes that they started out as.</p>
+<p>In this lab you’ll write the data structure that will be responsible for this reassembly: a Reassembler. It will receive substrings, consisting of a string of bytes, and the index of the first byte of that string within the larger stream. Each byte of the stream has its own unique index, starting from zero and counting upwards. As soon as the Reassembler knows the next byte of the stream, it will write it to the Writer side of a ByteStream— the same ByteStream you implemented in checkpoint 0. The Reassembler’s “customer” can read from the Reader side of the same ByteStream.</p>
+</blockquote>
+<p>重要信息：</p>
+<ul>
+<li>网络可能会造成数据报重新排序、丢弃或多次传送</li>
+<li>接收方必须将Segment重新组合，使其连续</li>
+<li>每个子字符串都有第一个字节的索引</li>
+<li>流的每个字节都有唯一索引，并且从0开始</li>
+<li>流的下一字节被重组器接受应当立马将其写入流的Writer端</li>
+</ul>
+<p>ps：我为什么要做这个？</p>
+<p><img src="./imgs/image-20240925191916703.png" alt="image-20240925191916703"></p>
+<p>先放上整个项目实现的东西：</p>
+<img src="./imgs/image-20240910092821539.png" alt="image-20240910092821539"  />
+<p>总结文档内容大概就是告诉我们在lab0实现了字节流（ByteStream部分），现在lab1要实现StreamReassembler，这部分是TCP可靠传输的保证，使用滑动窗口思想实现。参考下图：</p>
+<img src="./imgs/image-20240910093038165.png" alt="image-20240910093038165"  />
+<p>其中蓝色部分为已经缓存并且读走的字节，绿色部分为字节流中缓存的未被读走字节，红色部分为缓存在Reassembler内存中的字节（一般是substring的index不对，先缓存在这里面，等顺序正确后再将其放入ByteStream中）。比较复杂的应该是如何缓存，并且让其重新有序。</p>
+<h4 id="what-should-the-reassembler-store-internally">What should the Reassembler store internally?</h4>
+<ol>
+<li>Bytes that are the next bytes in the stream. The Reassembler should push these to the stream (output .writer()) as soon as they are known.</li>
+<li>Bytes that fit within the stream’s available capacity but can’t yet be written, because earlier bytes remain unknown. These should be stored internally in the Reassembler.</li>
+<li>Bytes that lie beyond the stream’s available capacity. These should be discarded. The Reassembler’s will not store any bytes that can’t be pushed to the ByteStream either immediately, or as soon as earlier bytes become known.</li>
+</ol>
+<p>需求分析：</p>
+<ul>
+<li>一个变量保存重组器的期待序列；</li>
+<li>接收到了缺失部分字节的字节分组，并且字节分组的大小不超过ByteStream的容量则将其存在重组器的缓存中；</li>
+<li>接收到了first_index不在接收范围内的字节分组直接丢弃，因为ByteStream处理不了该字节分组；</li>
+<li>当重组器得到了缺失的字节分组时要立刻将缓冲区中所有能被推入的字节推入ByteStream中。（超出容量就截断）；</li>
+<li>考虑特殊情况：first_index在接收范围内，但是字节本身长度大于容量的分组，则截断后缓存或推入ByteStream。</li>
+</ul>
+<p>程序实现：</p>
+<ol>
+<li>
+<p>一个uint64_t类型的变量记录期待的序列号，每次缓存或推入只需加上本次实际缓存或推入字节的长度维护好这个变量即可；</p>
+</li>
+<li>
+<p>超出ByteStream容量的分组可以利用上述变量进行分类，尽快找出应当抛弃的分组，并把缺失数据、符合条件的数据推入缓冲区；</p>
+</li>
+<li>
+<p>有序且唯一的存储数据分组：</p>
+<p>这部分比较复杂，复习的时候一定要详细阅读代码并结合画图。</p>
+<p>首先考虑数据结构，因为要频繁地插入删除，所以数组首先排除，其操作成本太高。考虑到我们需要有序地存储数据分组，可以使用以下数据结构：map、set、list，不过我们需要在区间[first_index, first_index + data.size]上不断地比较大小以找到插入的位置，由于map和set的查找算法（lower_bound和upper_bound）都不支持自定义谓词，所以只能使用时间复杂度O(n)支持谓词的算法，考虑到其空间开销却换来O(n)的时间复杂度，决定舍弃，使用简单的list即可。</p>
+<p>具体操作请看代码，这里不细说。</p>
+</li>
+</ol>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#pragma once
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&#34;byte_stream.hh&#34;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&lt;list&gt;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&lt;string&gt;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&lt;tuple&gt;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">class</span> <span style="color:#458;font-weight:bold">Reassembler</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">public</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Construct Reassembler to write into given ByteStream.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">explicit</span> Reassembler( ByteStream<span style="color:#000;font-weight:bold">&amp;&amp;</span> output ) <span style="color:#000;font-weight:bold">:</span> output_( std<span style="color:#000;font-weight:bold">::</span>move( output ) ) {}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   * Insert a new substring to be reassembled into a ByteStream.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   *   `first_index`: the index of the first byte of the substring
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   *   `data`: the substring itself
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   *   `is_last_substring`: this substring represents the end of the stream
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   *   `output`: a mutable reference to the Writer
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   *
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   * The Reassembler&#39;s job is to reassemble the indexed substrings (possibly out-of-order
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   * and possibly overlapping) back into the original ByteStream. As soon as the Reassembler
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   * learns the next byte in the stream, it should write it to the output.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   *
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   * If the Reassembler learns about bytes that fit within the stream&#39;s available capacity
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   * but can&#39;t yet be written (because earlier bytes remain unknown), it should store them
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   * internally until the gaps are filled in.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   *
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   * The Reassembler should discard any bytes that lie beyond the stream&#39;s available capacity
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   * (i.e., bytes that couldn&#39;t be written even if earlier gaps get filled in).
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   *
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   * The Reassembler should close the stream after writing the last byte.
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">   */</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">insert</span>( <span style="color:#458;font-weight:bold">uint64_t</span> first_index, std<span style="color:#000;font-weight:bold">::</span>string data, <span style="color:#458;font-weight:bold">bool</span> is_last_substring );
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// How many bytes are stored in the Reassembler itself?
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">uint64_t</span> <span style="color:#900;font-weight:bold">bytes_pending</span>() <span style="color:#000;font-weight:bold">const</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Access output stream reader
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  Reader<span style="color:#000;font-weight:bold">&amp;</span> reader() { <span style="color:#000;font-weight:bold">return</span> output_.reader(); }
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">const</span> Reader<span style="color:#000;font-weight:bold">&amp;</span> reader() <span style="color:#000;font-weight:bold">const</span> { <span style="color:#000;font-weight:bold">return</span> output_.reader(); }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// Access output stream writer, but const-only (can&#39;t write from outside)
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">const</span> Writer<span style="color:#000;font-weight:bold">&amp;</span> writer() <span style="color:#000;font-weight:bold">const</span> { <span style="color:#000;font-weight:bold">return</span> output_.writer(); }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">private</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">void</span> push_bytes( <span style="color:#458;font-weight:bold">uint64_t</span> first_index, std<span style="color:#000;font-weight:bold">::</span>string data, <span style="color:#458;font-weight:bold">bool</span> is_last_substring );
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">cache_bytes</span>( <span style="color:#458;font-weight:bold">uint64_t</span> first_index, std<span style="color:#000;font-weight:bold">::</span>string data, <span style="color:#458;font-weight:bold">bool</span> is_last_substring );
+</span></span><span style="display:flex;"><span>  <span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">flush_buffer</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  ByteStream output_; <span style="color:#998;font-style:italic">// the Reassembler writes to this ByteStream
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">uint64_t</span> nbytes_pending_ {};  <span style="color:#998;font-style:italic">// 在重组器缓存中的字节数
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#458;font-weight:bold">uint64_t</span> expecting_index_ {}; <span style="color:#998;font-style:italic">// 重组器期待的序列
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  std<span style="color:#000;font-weight:bold">::</span>list<span style="color:#000;font-weight:bold">&lt;</span>std<span style="color:#000;font-weight:bold">::</span>tuple<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">uint64_t</span>, std<span style="color:#000;font-weight:bold">::</span>string, <span style="color:#458;font-weight:bold">bool</span><span style="color:#000;font-weight:bold">&gt;&gt;</span> unordered_bytes_ {};
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 48
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 49
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 50
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 51
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 52
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 53
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 54
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 55
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 56
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 57
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 58
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 59
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 60
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 61
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 62
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 63
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 64
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 65
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 66
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 67
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 68
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 69
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 70
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 71
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 72
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 73
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 74
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 75
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 76
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 77
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 78
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 79
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 80
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 81
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 82
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 83
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 84
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 85
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 86
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 87
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 88
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 89
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 90
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 91
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 92
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 93
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 94
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 95
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 96
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 97
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 98
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 99
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">100
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">101
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">102
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">103
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">104
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">105
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">106
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">107
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">108
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">109
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">110
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">111
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">112
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">113
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">114
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">115
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">116
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">117
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">118
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">119
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">120
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">121
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">122
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">123
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">124
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">125
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">126
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">127
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">128
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">129
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">130
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">131
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">132
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&#34;reassembler.hh&#34;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&lt;algorithm&gt;</span><span style="color:#999;font-weight:bold;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">using</span> <span style="color:#000;font-weight:bold">namespace</span> std;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  控制数据插入的方法：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  1. 筛选不符合条件的数据分组：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    - 字节流已经关闭却还要写的分组；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    - 已经没有空闲空间还要写的分组；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    - first_index不在接受范围内的分组。
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  2. 处理数据，对于数据长度超过了缓冲区容量的分组，将其后半部分截断再存储；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  3. 根据first_index分类：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    - first_index &gt; expecting_index_时，说明还有缺失数据，将该分组缓存；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    - 否则，将其压入字节流中；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  4. 最后更新缓冲区。
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">*/</span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">void</span> Reassembler<span style="color:#000;font-weight:bold">::</span>insert( <span style="color:#458;font-weight:bold">uint64_t</span> first_index, string data, <span style="color:#458;font-weight:bold">bool</span> is_last_substring )
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  Writer <span style="color:#000;font-weight:bold">&amp;</span>bytes_writer <span style="color:#000;font-weight:bold">=</span> output_.writer();
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// 筛选条件
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">if</span> ( <span style="color:#000;font-weight:bold">const</span> <span style="color:#458;font-weight:bold">uint64_t</span> unacceptable_idx <span style="color:#000;font-weight:bold">=</span> expecting_index_ <span style="color:#000;font-weight:bold">+</span> bytes_writer.available_capacity();
+</span></span><span style="display:flex;"><span>       bytes_writer.is_closed() <span style="color:#000;font-weight:bold">||</span> bytes_writer.available_capacity() <span style="color:#000;font-weight:bold">==</span> <span style="color:#099">0</span> <span style="color:#000;font-weight:bold">||</span> first_index <span style="color:#000;font-weight:bold">&gt;=</span> unacceptable_idx )
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">return</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">else</span> <span style="color:#900;font-weight:bold">if</span> ( first_index <span style="color:#000;font-weight:bold">+</span> data.size() <span style="color:#000;font-weight:bold">&gt;=</span> unacceptable_idx ) {
+</span></span><span style="display:flex;"><span>    is_last_substring <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">false</span>;
+</span></span><span style="display:flex;"><span>    data.resize( unacceptable_idx <span style="color:#000;font-weight:bold">-</span> first_index );
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">if</span> ( first_index <span style="color:#000;font-weight:bold">&gt;</span> expecting_index_ ) {
+</span></span><span style="display:flex;"><span>    cache_bytes( first_index, move( data ), is_last_substring );
+</span></span><span style="display:flex;"><span>  } <span style="color:#000;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>    push_bytes( first_index, move( data ), is_last_substring );
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  flush_buffer();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">uint64_t</span> Reassembler<span style="color:#000;font-weight:bold">::</span>bytes_pending() <span style="color:#000;font-weight:bold">const</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">return</span> nbytes_pending_;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  将数据推入字节流的逻辑实现函数：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  1. first_index &lt; expecting_index_的分组，说明其从expecting_index_开始往后的所有字节
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  都是符合要求的，并且没有缺失，所以将其前面从0开始截去expecting_index_ - first_index
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  个字节；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  2. 直接将data推入字节流中，维护好相关变量；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  3. 对于is_last_substring为true的分组，在将其推入字节流后应关闭字节流并清空缓冲区。
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">*/</span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">void</span> Reassembler<span style="color:#000;font-weight:bold">::</span>push_bytes( <span style="color:#458;font-weight:bold">uint64_t</span> first_index, string data, <span style="color:#458;font-weight:bold">bool</span> is_last_substring ) {
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">if</span> ( first_index <span style="color:#000;font-weight:bold">&lt;</span> expecting_index_ ) 
+</span></span><span style="display:flex;"><span>    data.erase( <span style="color:#099">0</span>, expecting_index_ <span style="color:#000;font-weight:bold">-</span> first_index );
+</span></span><span style="display:flex;"><span>  expecting_index_ <span style="color:#000;font-weight:bold">+=</span> data.size();
+</span></span><span style="display:flex;"><span>  output_.writer().push( move(data) );
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">if</span> ( is_last_substring ) {
+</span></span><span style="display:flex;"><span>    output_.writer().close();
+</span></span><span style="display:flex;"><span>    unordered_bytes_.clear();
+</span></span><span style="display:flex;"><span>    nbytes_pending_ <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  缓存逻辑实现函数：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  1. 先获取左右区间位置；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  2. 处理左区间重叠情况：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    - 新的分组数据包含在了原序列中，直接返回；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    - 没有重叠，对新数据不作任何操作，最后插入到合适为止即可；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    - 有重叠，根据具体重叠情况处理；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  3. 处理右区间重叠情况，对于处理完左侧的数据，当右侧有重叠时，将其与右侧
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  原数据拼接
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  4. 从left开始遍历，删除区间内所有的节点，插入新的数据
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">*/</span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">void</span> Reassembler<span style="color:#000;font-weight:bold">::</span>cache_bytes( <span style="color:#458;font-weight:bold">uint64_t</span> first_index, string data, <span style="color:#458;font-weight:bold">bool</span> is_last_substring ) {
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">auto</span> end <span style="color:#000;font-weight:bold">=</span> unordered_bytes_.end();
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// 获取左右区间
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">auto</span> left <span style="color:#000;font-weight:bold">=</span> lower_bound( unordered_bytes_.begin(), end, first_index, []( <span style="color:#000;font-weight:bold">auto</span><span style="color:#000;font-weight:bold">&amp;&amp;</span> e, <span style="color:#458;font-weight:bold">uint64_t</span> idx ) <span style="color:#000;font-weight:bold">-&gt;</span> <span style="color:#458;font-weight:bold">bool</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">return</span> idx <span style="color:#000;font-weight:bold">&gt;</span> ( get<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#099">0</span><span style="color:#000;font-weight:bold">&gt;</span>( e ) <span style="color:#000;font-weight:bold">+</span> get<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#099">1</span><span style="color:#000;font-weight:bold">&gt;</span>( e ).size() );
+</span></span><span style="display:flex;"><span>  } );
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">auto</span> right <span style="color:#000;font-weight:bold">=</span> upper_bound( left, end, first_index <span style="color:#000;font-weight:bold">+</span> data.size(), []( <span style="color:#458;font-weight:bold">uint64_t</span> idx, <span style="color:#000;font-weight:bold">auto</span><span style="color:#000;font-weight:bold">&amp;&amp;</span> e ) <span style="color:#000;font-weight:bold">-&gt;</span> <span style="color:#458;font-weight:bold">bool</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">return</span> idx <span style="color:#000;font-weight:bold">&lt;</span> get<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#099">0</span><span style="color:#000;font-weight:bold">&gt;</span>( e );
+</span></span><span style="display:flex;"><span>  } );
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// 处理左区间有重叠
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">if</span> ( <span style="color:#000;font-weight:bold">const</span> <span style="color:#458;font-weight:bold">uint64_t</span> next_index <span style="color:#000;font-weight:bold">=</span> first_index <span style="color:#000;font-weight:bold">+</span> data.size(); left <span style="color:#000;font-weight:bold">!=</span> end ) {
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">auto</span><span style="color:#000;font-weight:bold">&amp;</span> [lpoint, str, _] <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">*</span>left;
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">if</span> ( <span style="color:#000;font-weight:bold">const</span> <span style="color:#458;font-weight:bold">uint64_t</span> rpoint <span style="color:#000;font-weight:bold">=</span> lpoint <span style="color:#000;font-weight:bold">+</span> str.size(); first_index <span style="color:#000;font-weight:bold">&gt;=</span> lpoint <span style="color:#000;font-weight:bold">&amp;&amp;</span> next_index <span style="color:#000;font-weight:bold">&lt;=</span> rpoint  )
+</span></span><span style="display:flex;"><span>      <span style="color:#000;font-weight:bold">return</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">else</span> <span style="color:#900;font-weight:bold">if</span> ( next_index <span style="color:#000;font-weight:bold">&lt;</span> lpoint )
+</span></span><span style="display:flex;"><span>      right <span style="color:#000;font-weight:bold">=</span> left;
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">else</span> <span style="color:#900;font-weight:bold">if</span> ( <span style="color:#000;font-weight:bold">!</span>( first_index <span style="color:#000;font-weight:bold">&lt;=</span> lpoint <span style="color:#000;font-weight:bold">&amp;&amp;</span> next_index <span style="color:#000;font-weight:bold">&gt;=</span> rpoint ) ) {
+</span></span><span style="display:flex;"><span>      <span style="color:#000;font-weight:bold">if</span> ( first_index <span style="color:#000;font-weight:bold">&lt;</span> lpoint ) {
+</span></span><span style="display:flex;"><span>        data.resize( data.size() <span style="color:#000;font-weight:bold">-</span> ( next_index <span style="color:#000;font-weight:bold">-</span> lpoint ) );
+</span></span><span style="display:flex;"><span>        data.append( str );
+</span></span><span style="display:flex;"><span>      } <span style="color:#000;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>        data.insert( <span style="color:#099">0</span>, string_view( str.c_str(), str.size() <span style="color:#000;font-weight:bold">-</span> ( rpoint <span style="color:#000;font-weight:bold">-</span> first_index ) ) );
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      first_index <span style="color:#000;font-weight:bold">=</span> min( first_index, lpoint );
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// 处理右区间有重叠
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">if</span> ( <span style="color:#000;font-weight:bold">const</span> <span style="color:#458;font-weight:bold">uint64_t</span> next_index <span style="color:#000;font-weight:bold">=</span> first_index <span style="color:#000;font-weight:bold">+</span> data.size(); right <span style="color:#000;font-weight:bold">!=</span> left <span style="color:#000;font-weight:bold">&amp;&amp;</span> <span style="color:#000;font-weight:bold">!</span>unordered_bytes_.empty() ) {
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">auto</span><span style="color:#000;font-weight:bold">&amp;</span> [lpoint, str, _] <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">*</span>prev( right );
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">if</span> ( <span style="color:#000;font-weight:bold">const</span> <span style="color:#458;font-weight:bold">uint64_t</span> rpoint <span style="color:#000;font-weight:bold">=</span> lpoint <span style="color:#000;font-weight:bold">+</span> str.size(); rpoint <span style="color:#000;font-weight:bold">&gt;</span> next_index ) {
+</span></span><span style="display:flex;"><span>      data.resize( data.size() <span style="color:#000;font-weight:bold">-</span> ( next_index <span style="color:#000;font-weight:bold">-</span> lpoint ) );
+</span></span><span style="display:flex;"><span>      data.append( str );
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#998;font-style:italic">// 删除区间内的节点
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>  <span style="color:#000;font-weight:bold">for</span> ( ;left <span style="color:#000;font-weight:bold">!=</span> right; left <span style="color:#000;font-weight:bold">=</span> unordered_bytes_.erase( left ) ) {
+</span></span><span style="display:flex;"><span>    nbytes_pending_ <span style="color:#000;font-weight:bold">-=</span> get<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#099">1</span><span style="color:#000;font-weight:bold">&gt;</span>( <span style="color:#000;font-weight:bold">*</span>left ).size();
+</span></span><span style="display:flex;"><span>    is_last_substring <span style="color:#000;font-weight:bold">|=</span> get<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#099">2</span><span style="color:#000;font-weight:bold">&gt;</span>( <span style="color:#000;font-weight:bold">*</span>left );
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  nbytes_pending_ <span style="color:#000;font-weight:bold">+=</span> data.size();
+</span></span><span style="display:flex;"><span>  unordered_bytes_.insert( left, { first_index, move( data ), is_last_substring } );
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  刷新缓冲区逻辑实现函数：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">  一直将可以push的字节push掉即可
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">*/</span>
+</span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">void</span> Reassembler<span style="color:#000;font-weight:bold">::</span>flush_buffer() {
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">while</span> ( <span style="color:#000;font-weight:bold">!</span>unordered_bytes_.empty() ) {
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">auto</span><span style="color:#000;font-weight:bold">&amp;</span> [index, str, is_last] <span style="color:#000;font-weight:bold">=</span> unordered_bytes_.front();
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">if</span> ( index <span style="color:#000;font-weight:bold">&gt;</span> expecting_index_ )
+</span></span><span style="display:flex;"><span>      <span style="color:#000;font-weight:bold">break</span>;
+</span></span><span style="display:flex;"><span>    nbytes_pending_ <span style="color:#000;font-weight:bold">-=</span> str.size();
+</span></span><span style="display:flex;"><span>    push_bytes( index, move( str ), is_last );
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">if</span> ( <span style="color:#000;font-weight:bold">!</span>unordered_bytes_.empty() )
+</span></span><span style="display:flex;"><span>      unordered_bytes_.pop_front();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>编写完后在<code>minnow</code>目录下执行<code>cmake --build build --target check1</code>即可开始测试，下面附上成功的结果：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Test project /home/sniffstherose/cs144/minnow/build
+</span></span><span style="display:flex;"><span>      Start  1: compile with bug-checkers
+</span></span><span style="display:flex;"><span> 1/17 Test  <span style="color:#998;font-style:italic">#1: compile with bug-checkers ........   Passed    1.84 sec</span>
+</span></span><span style="display:flex;"><span>      Start  3: byte_stream_basics
+</span></span><span style="display:flex;"><span> 2/17 Test  <span style="color:#998;font-style:italic">#3: byte_stream_basics ...............   Passed    0.06 sec</span>
+</span></span><span style="display:flex;"><span>      Start  4: byte_stream_capacity
+</span></span><span style="display:flex;"><span> 3/17 Test  <span style="color:#998;font-style:italic">#4: byte_stream_capacity .............   Passed    0.06 sec</span>
+</span></span><span style="display:flex;"><span>      Start  5: byte_stream_one_write
+</span></span><span style="display:flex;"><span> 4/17 Test  <span style="color:#998;font-style:italic">#5: byte_stream_one_write ............   Passed    0.06 sec</span>
+</span></span><span style="display:flex;"><span>      Start  6: byte_stream_two_writes
+</span></span><span style="display:flex;"><span> 5/17 Test  <span style="color:#998;font-style:italic">#6: byte_stream_two_writes ...........   Passed    0.06 sec</span>
+</span></span><span style="display:flex;"><span>      Start  7: byte_stream_many_writes
+</span></span><span style="display:flex;"><span> 6/17 Test  <span style="color:#998;font-style:italic">#7: byte_stream_many_writes ..........   Passed    0.08 sec</span>
+</span></span><span style="display:flex;"><span>      Start  8: byte_stream_stress_test
+</span></span><span style="display:flex;"><span> 7/17 Test  <span style="color:#998;font-style:italic">#8: byte_stream_stress_test ..........   Passed    0.13 sec</span>
+</span></span><span style="display:flex;"><span>      Start  9: reassembler_single
+</span></span><span style="display:flex;"><span> 8/17 Test  <span style="color:#998;font-style:italic">#9: reassembler_single ...............   Passed    0.05 sec</span>
+</span></span><span style="display:flex;"><span>      Start 10: reassembler_cap
+</span></span><span style="display:flex;"><span> 9/17 Test <span style="color:#998;font-style:italic">#10: reassembler_cap ..................   Passed    0.06 sec</span>
+</span></span><span style="display:flex;"><span>      Start 11: reassembler_seq
+</span></span><span style="display:flex;"><span>10/17 Test <span style="color:#998;font-style:italic">#11: reassembler_seq ..................   Passed    0.06 sec</span>
+</span></span><span style="display:flex;"><span>      Start 12: reassembler_dup
+</span></span><span style="display:flex;"><span>11/17 Test <span style="color:#998;font-style:italic">#12: reassembler_dup ..................   Passed    0.08 sec</span>
+</span></span><span style="display:flex;"><span>      Start 13: reassembler_holes
+</span></span><span style="display:flex;"><span>12/17 Test <span style="color:#998;font-style:italic">#13: reassembler_holes ................   Passed    0.06 sec</span>
+</span></span><span style="display:flex;"><span>      Start 14: reassembler_overlapping
+</span></span><span style="display:flex;"><span>13/17 Test <span style="color:#998;font-style:italic">#14: reassembler_overlapping ..........   Passed    0.07 sec</span>
+</span></span><span style="display:flex;"><span>      Start 15: reassembler_win
+</span></span><span style="display:flex;"><span>14/17 Test <span style="color:#998;font-style:italic">#15: reassembler_win ..................   Passed    0.29 sec</span>
+</span></span><span style="display:flex;"><span>      Start 37: compile with optimization
+</span></span><span style="display:flex;"><span>15/17 Test <span style="color:#998;font-style:italic">#37: compile with optimization ........   Passed    0.57 sec</span>
+</span></span><span style="display:flex;"><span>      Start 38: byte_stream_speed_test
+</span></span><span style="display:flex;"><span>             ByteStream throughput: 28.21 Gbit/s
+</span></span><span style="display:flex;"><span>16/17 Test <span style="color:#998;font-style:italic">#38: byte_stream_speed_test ...........   Passed    0.07 sec</span>
+</span></span><span style="display:flex;"><span>      Start 39: reassembler_speed_test
+</span></span><span style="display:flex;"><span>             Reassembler throughput: 11.44 Gbit/s
+</span></span><span style="display:flex;"><span>17/17 Test <span style="color:#998;font-style:italic">#39: reassembler_speed_test ...........   Passed    0.13 sec</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>100% tests passed, <span style="color:#099">0</span> tests failed out of <span style="color:#099">17</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Total Test <span style="color:#0086b3">time</span> <span style="color:#000;font-weight:bold">(</span>real<span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=</span>   3.85 sec
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>::在做这个实验的时候出现了一个非常操蛋的失误，我把上面.cc文件中105行<code>data.resize( data.size() - ( next_index - lpoint ) );</code>的<code>data.size()</code>写成了<code>str.size()</code>（但脑子里想的就是data.size()）导致测试不通过，GDB各种排查，最终排查到了这个if语句内，但是看了半天也没看出逻辑哪里不对最后断点打到106行才注意到这个<code>str.size()</code>😅。</p>
+</blockquote>
+<p>最后git提交一下即可进入下一阶段😎。</p>
+
+    </div>
+    
+    
+
+    
+
+</div>
+
+        </div>
+        <div id="footer"><div class="container-footer">
+    
+    
+
+    <div class="beian">
+        
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=">
+            
+
+        </a>
+
+        <a href="//tryanel.github.io/days/" target="_blank">
+            
+            明天，我们会更好
+            
+        </a>
+    </div>
+
+    <div class="info">
+        <a href="https://github.com/Tryanel/Tryanel.github.io">Copyright</a> © 2023 - <span id="info-date"></span>
+    </div>
+
+</div></div>
+        <div class="cool-after" style="background-color: rgba(255, 255, 255, 0.81);"></div>
+    </body>
+</html>
