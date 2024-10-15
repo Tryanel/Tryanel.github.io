@@ -57,11 +57,11 @@
         <span>
             
             <svg t="1656737548689" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="33866" width="12" height="12"><path d="M832.038608 64.662657H192.030028C121.255125 64.662657 63.940169 121.98845 63.940169 192.694717v446.793671C63.940169 710.205493 121.255125 767.643272 192.030028 767.643272h133.353183a63.940169 63.940169 0 0 1 55.219742 31.576328l76.099638 129.83828c12.358154 21.093031 33.790754 31.626903 55.216129 31.626903s42.832688-10.544709 55.198067-31.619678l76.222461-129.870792a63.940169 63.940169 0 0 1 55.212517-31.551041h133.54103c70.576219 0 127.732228-57.289669 127.732227-127.800865V192.391272C959.825022 121.85479 902.643727 64.662657 832.038608 64.662657zM895.884854 639.842407A63.85347 63.85347 0 0 1 832.092795 703.703103h-133.54103a127.753903 127.753903 0 0 0-110.349172 63.09847l-76.222461 129.856342a0.274545 0.274545 0 0 1 0-0.050574h-0.032512s-0.021675 0.061411-0.032512 0.061412l-76.1466-129.85273A127.804477 127.804477 0 0 0 325.383211 703.703103H192.030028A64.207489 64.207489 0 0 1 127.880338 639.488388V192.694717A64.102729 64.102729 0 0 1 192.030028 128.602826h640.00858A63.799284 63.799284 0 0 1 895.884854 192.391272v447.451135z" fill="#adb5bd" p-id="33867"></path><path d="M608.154093 288.092004A31.970084 31.970084 0 0 0 576.184009 320.062089v160.078006l-134.650049-179.278119A31.970084 31.970084 0 0 0 384.002258 320.062089v255.760676a31.970084 31.970084 0 0 0 63.940169 0v-159.958796l134.650048 179.274507a31.970084 31.970084 0 0 0 57.531703-19.200113V320.062089a31.970084 31.970084 0 0 0-31.970085-31.970085z" fill="#adb5bd" p-id="33868"></path></svg>
-            50194 字</span>&nbsp;
+            52111 字</span>&nbsp;
         <span>
             
             <svg t="1656737462334" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32892" width="12" height="12"><path d="M512 74.666667C270.933333 74.666667 74.666667 270.933333 74.666667 512S270.933333 949.333333 512 949.333333 949.333333 753.066667 949.333333 512 753.066667 74.666667 512 74.666667z m0 810.666666c-204.8 0-373.333333-168.533333-373.333333-373.333333S307.2 138.666667 512 138.666667 885.333333 307.2 885.333333 512 716.8 885.333333 512 885.333333z" p-id="32893" fill="#adb5bd"></path><path d="M695.466667 567.466667l-151.466667-70.4V277.333333c0-17.066667-14.933333-32-32-32s-32 14.933333-32 32v238.933334c0 12.8 6.4 23.466667 19.2 29.866666l170.666667 81.066667c4.266667 2.133333 8.533333 2.133333 12.8 2.133333 12.8 0 23.466667-6.4 29.866666-19.2 6.4-14.933333 0-34.133333-17.066666-42.666666z" p-id="32894" fill="#adb5bd"></path></svg>
-            101 分钟</span>
+            105 分钟</span>
             <div class="container-ctgtag">
 	<div class="taxonomy">
 		<div class="tag">
@@ -207,6 +207,11 @@
         <li><a href="#274-h指数">274 H指数</a></li>
         <li><a href="#380-o1时间插入删除和获取随机元素">380 O(1)时间插入、删除和获取随机元素</a></li>
         <li><a href="#238-除自身以外数组的乘积-1">238 除自身以外数组的乘积</a></li>
+      </ul>
+    </li>
+    <li><a href="#代码随想录">代码随想录</a>
+      <ul>
+        <li><a href="#数组">数组</a></li>
       </ul>
     </li>
     <li><a href="#高频sql50题">高频SQL50题</a>
@@ -7646,7 +7651,7 @@ for (int i = 0; i &lt; actualLength; i++) {
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    双指针
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    题目讲的花里胡哨，其实只需要将nums中为val的元素移到末尾即可，
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    使用双指针实现，left从0开始，right从nums.size()开始，如果
-</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    nums[left] == val，则将nums[left]和nums[right - 1]的值交换，
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    nums[left] == val，则将nums[left]的值改为nums[right - 1]
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    知道left和right相遇。
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    至于为什么right是从nums.size()开始？是为了方便最后left == right的
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    时候直接返回left，就不用+1了。
@@ -7659,7 +7664,7 @@ for (int i = 0; i &lt; actualLength; i++) {
 </span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> left <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>, right <span style="color:#000;font-weight:bold">=</span> n;
 </span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">while</span> (left <span style="color:#000;font-weight:bold">&lt;</span> right) {
 </span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (nums[left] <span style="color:#000;font-weight:bold">==</span> val) {
-</span></span><span style="display:flex;"><span>                swap(nums[left], nums[right <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>]);
+</span></span><span style="display:flex;"><span>                nums[left] <span style="color:#000;font-weight:bold">=</span> nums[right <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>];
 </span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">--</span>right;
 </span></span><span style="display:flex;"><span>            } <span style="color:#000;font-weight:bold">else</span> {
 </span></span><span style="display:flex;"><span>                left<span style="color:#000;font-weight:bold">++</span>;
@@ -8580,6 +8585,289 @@ randomizedSet.getRandom(); // 由于 2 是集合中唯一的数字，getRandom �
 </span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">for</span> (<span style="color:#458;font-weight:bold">int</span> i <span style="color:#000;font-weight:bold">=</span> n <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">2</span>; i <span style="color:#000;font-weight:bold">&gt;=</span> <span style="color:#099">0</span>; <span style="color:#000;font-weight:bold">--</span>i) {
 </span></span><span style="display:flex;"><span>            temp <span style="color:#000;font-weight:bold">*=</span> nums[i <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">1</span>];
 </span></span><span style="display:flex;"><span>            ans[i] <span style="color:#000;font-weight:bold">*=</span> temp;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> ans;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="代码随想录">代码随想录</h2>
+<h3 id="数组">数组</h3>
+<h4 id="704-二分查找">704 二分查找</h4>
+<p><a href="https://leetcode.cn/problems/binary-search/">704. 二分查找</a></p>
+<p>给定一个 <code>n</code> 个元素有序的（升序）整型数组 <code>nums</code> 和一个目标值 <code>target</code> ，写一个函数搜索 <code>nums</code> 中的 <code>target</code>，如果目标值存在返回下标，否则返回 <code>-1</code>。
+<strong>示例 1:</strong></p>
+<pre tabindex="0"><code>输入: nums = [-1,0,3,5,9,12], target = 9
+输出: 4
+解释: 9 出现在 nums 中并且下标为 4
+</code></pre><p><strong>示例 2:</strong></p>
+<pre tabindex="0"><code>输入: nums = [-1,0,3,5,9,12], target = 2
+输出: -1
+解释: 2 不存在 nums 中因此返回 -1
+</code></pre><p><strong>题解：</strong></p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">class</span> <span style="color:#458;font-weight:bold">Solution</span> {
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">public</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#998;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    二分查找，道理是明白了，就是写代码莫名其妙的
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    1. 找到左右边界
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    2. 找到中间点，开始二分
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    3. 如果中间值小于目标则左边界右移，反之右边界左移
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    4. 知道找到位置或者最后退出
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    ps: 为什么会一看就会一写就废，其实是因为对区间的定义没有理解：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    - 这里代码的区间为[l, r]，左闭右闭，所以在while里面应当写l &lt;= r，
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    因为l = r的时候在[l, r]区间内是有意义的，并且因为该区间右闭，所以
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    当nums[mid] &gt; target时r = mid - 1，因为区间的定义使得r应当是可取的；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    - 如果一开始r的定义为r = n，则此时while里的条件应该改成l &lt; r，因为
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    l = r在[l, r)区间内无意义，l 不可能等于r。此时当nums[mid] &gt; target时
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    r = mid，因为区间的定义，r应当不可取
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">int</span> search(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&amp;</span> nums, <span style="color:#458;font-weight:bold">int</span> target) {
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> n <span style="color:#000;font-weight:bold">=</span> nums.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (n <span style="color:#000;font-weight:bold">==</span> <span style="color:#099">0</span>) <span style="color:#000;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">-</span><span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> l <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>, r <span style="color:#000;font-weight:bold">=</span> n <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">while</span> (l <span style="color:#000;font-weight:bold">&lt;=</span> r) {
+</span></span><span style="display:flex;"><span>            <span style="color:#458;font-weight:bold">int</span> mid <span style="color:#000;font-weight:bold">=</span> l <span style="color:#000;font-weight:bold">+</span> ((r <span style="color:#000;font-weight:bold">-</span> l) <span style="color:#000;font-weight:bold">&gt;&gt;</span> <span style="color:#099">1</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#458;font-weight:bold">int</span> num <span style="color:#000;font-weight:bold">=</span> nums[mid];
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (num <span style="color:#000;font-weight:bold">==</span> target) {
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">return</span> mid;
+</span></span><span style="display:flex;"><span>            } <span style="color:#000;font-weight:bold">else</span> <span style="color:#900;font-weight:bold">if</span> (num <span style="color:#000;font-weight:bold">&lt;</span> target) {
+</span></span><span style="display:flex;"><span>                l <span style="color:#000;font-weight:bold">=</span> mid <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>            } <span style="color:#000;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>                r <span style="color:#000;font-weight:bold">=</span> mid <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">-</span><span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="27-移除元素-1">27 移除元素</h4>
+<p><a href="https://leetcode.cn/problems/remove-element/">27. 移除元素</a></p>
+<p>给你一个数组 <code>nums</code> 和一个值 <code>val</code>，你需要 <strong><a href="https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95">原地</a></strong> 移除所有数值等于 <code>val</code> 的元素。元素的顺序可能发生改变。然后返回 <code>nums</code> 中与 <code>val</code> 不同的元素的数量。</p>
+<p>假设 <code>nums</code> 中不等于 <code>val</code> 的元素数量为 <code>k</code>，要通过此题，您需要执行以下操作：</p>
+<ul>
+<li>更改 <code>nums</code> 数组，使 <code>nums</code> 的前 <code>k</code> 个元素包含不等于 <code>val</code> 的元素。<code>nums</code> 的其余元素和 <code>nums</code> 的大小并不重要。</li>
+<li>返回 <code>k</code>。</li>
+</ul>
+<p><strong>用户评测：</strong></p>
+<p>评测机将使用以下代码测试您的解决方案：</p>
+<pre tabindex="0"><code>int[] nums = [...]; // 输入数组
+int val = ...; // 要移除的值
+int[] expectedNums = [...]; // 长度正确的预期答案。
+                            // 它以不等于 val 的值排序。
+
+int k = removeElement(nums, val); // 调用你的实现
+
+assert k == expectedNums.length;
+sort(nums, 0, k); // 排序 nums 的前 k 个元素
+for (int i = 0; i &lt; actualLength; i++) {
+    assert nums[i] == expectedNums[i];
+}
+</code></pre><p>如果所有的断言都通过，你的解决方案将会 <strong>通过</strong>。</p>
+<p><strong>示例 1：</strong></p>
+<pre tabindex="0"><code>输入：nums = [3,2,2,3], val = 3
+输出：2, nums = [2,2,_,_]
+解释：你的函数函数应该返回 k = 2, 并且 nums 中的前两个元素均为 2。
+你在返回的 k 个元素之外留下了什么并不重要（因此它们并不计入评测）。
+</code></pre><p><strong>示例 2：</strong></p>
+<pre tabindex="0"><code>输入：nums = [0,1,2,2,3,0,4,2], val = 2
+输出：5, nums = [0,1,4,0,3,_,_,_]
+解释：你的函数应该返回 k = 5，并且 nums 中的前五个元素为 0,0,1,3,4。
+注意这五个元素可以任意顺序返回。
+你在返回的 k 个元素之外留下了什么并不重要（因此它们并不计入评测）。
+</code></pre><p><strong>题解：</strong></p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">class</span> <span style="color:#458;font-weight:bold">Solution</span> {
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">public</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#998;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    双指针
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    题目讲的花里胡哨，其实只需要将nums中为val的元素移到末尾即可，
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    使用双指针实现，left从0开始，right从nums.size()开始，如果
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    nums[left] == val，则将nums[left]的值修改为nums[right - 1]的值，
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    直到left和right相遇。
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    至于为什么right是从nums.size()开始？是为了方便最后left == right的
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    时候直接返回left，就不用+1了。
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#458;font-weight:bold">int</span> removeElement(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&amp;</span> nums, <span style="color:#458;font-weight:bold">int</span> val) {
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> n <span style="color:#000;font-weight:bold">=</span> nums.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (n <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#099">1</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">return</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> left <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>, right <span style="color:#000;font-weight:bold">=</span> n;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">while</span> (left <span style="color:#000;font-weight:bold">&lt;</span> right) {
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (nums[left] <span style="color:#000;font-weight:bold">==</span> val) {
+</span></span><span style="display:flex;"><span>                nums[left] <span style="color:#000;font-weight:bold">=</span> nums[right <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>];
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">--</span>right;
+</span></span><span style="display:flex;"><span>            } <span style="color:#000;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>                left<span style="color:#000;font-weight:bold">++</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> left;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="977-有序数的平方">977 有序数的平方</h4>
+<p><a href="https://leetcode.cn/problems/squares-of-a-sorted-array/">977. 有序数组的平方</a></p>
+<p>给你一个按 <strong>非递减顺序</strong> 排序的整数数组 <code>nums</code>，返回 <strong>每个数字的平方</strong> 组成的新数组，要求也按 <strong>非递减顺序</strong> 排序。</p>
+<p><strong>示例 1：</strong></p>
+<pre tabindex="0"><code>输入：nums = [-4,-1,0,3,10]
+输出：[0,1,9,16,100]
+解释：平方后，数组变为 [16,1,0,9,100]
+排序后，数组变为 [0,1,9,16,100]
+</code></pre><p><strong>示例 2：</strong></p>
+<pre tabindex="0"><code>输入：nums = [-7,-3,2,3,11]
+输出：[4,9,9,49,121]
+</code></pre><p><strong>题解：</strong></p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">class</span> <span style="color:#458;font-weight:bold">Solution</span> {
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">public</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#998;font-style:italic">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    有简单的暴力方法：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    1. 首先遍历数组，更新数组每个元素等于其自身平方；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    2. 对处理后的数组排序；
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    3. 返回排序后的数组。
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    这个方法的时间复杂度为O(n + nlogn)，相当差，但是简单
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    更好的方法双指针：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    注意到数组的元素有正负，而负数的平方可能最后比本来数组
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    里正数的平方更大，所以了解到新数组的最大值可能在原数组
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    左右两边处理得到，不会在中间，所以可以借用归并排序的思
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    想：
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    1. 准备两个指针，left和right，另准备一个和原数组一样
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    大的新数组用于存放结果
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    2. 准备一个指针，point，用来表示目前插入新数组的位置
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    并比较left和right对应元素的平方的大小，将大的放入point
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    位置，循环此步骤直到left和right相遇
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    3. 返回新数组
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">    */</span>
+</span></span><span style="display:flex;"><span>    vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> sortedSquares(vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;&amp;</span> nums) {
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> n <span style="color:#000;font-weight:bold">=</span> nums.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">if</span> (n <span style="color:#000;font-weight:bold">==</span> <span style="color:#099">0</span>) <span style="color:#000;font-weight:bold">return</span> {};
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> left <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>, right <span style="color:#000;font-weight:bold">=</span> n <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>        vector<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> ans(n, <span style="color:#099">0</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#458;font-weight:bold">int</span> p <span style="color:#000;font-weight:bold">=</span> n <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">while</span> (left <span style="color:#000;font-weight:bold">&lt;=</span> right) {
+</span></span><span style="display:flex;"><span>            <span style="color:#458;font-weight:bold">int</span> l <span style="color:#000;font-weight:bold">=</span> nums[left] <span style="color:#000;font-weight:bold">*</span> nums[left];
+</span></span><span style="display:flex;"><span>            <span style="color:#458;font-weight:bold">int</span> r <span style="color:#000;font-weight:bold">=</span> nums[right] <span style="color:#000;font-weight:bold">*</span> nums[right];
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">if</span> (l <span style="color:#000;font-weight:bold">&gt;</span> r) {
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">++</span>left;
+</span></span><span style="display:flex;"><span>                ans[p<span style="color:#000;font-weight:bold">--</span>] <span style="color:#000;font-weight:bold">=</span> l;
+</span></span><span style="display:flex;"><span>            } <span style="color:#000;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">--</span>right;
+</span></span><span style="display:flex;"><span>                ans[p<span style="color:#000;font-weight:bold">--</span>] <span style="color:#000;font-weight:bold">=</span> r;
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
